@@ -1,0 +1,92 @@
+* From Monolith to Microservices (CONFIRMED)
+  :PROPERTIES:
+  :ID: 0636920141389-0636920141419
+  :icalCategories: 
+  :END:
+  <2018-06-26 Tue 20:00-23:00>
+  Location: Online
+
+  Microservices are all the rage at the moment, but many people focus
+  on what they look like and how they work once you’ve got
+  them. Suppose your organization has a very different type of
+  architecture, however, how do you move from one to the other?
+
+  Join Sam Newman, author of [[https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/][Building Microservices]], for an in-depth
+  exploration into how to go about breaking down monolithic systems
+  into microservices. Sam will cut through the buzzwords and be honest
+  about the pros and cons of adopting an architecture that might be
+  radically different from what you have now. By the end of this
+  course, you’ll have a solid grasp of the principles and a concrete
+  set of tools for breaking apart your own systems.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/from-monolith-to-microservices/0636920141389/join/)
+
+  Organizer: mailto:donotreply@oreilly.com
+  
+  :ICALENDAR:
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20180626T150000Z
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE-TIME:20180626T120000Z
+TRANSP:OPAQUE
+DTSTAMP;VALUE=DATE-TIME:20180625T173143Z
+UID:0636920141389-0636920141419
+DESCRIPTION:Microservices are all the rage at the moment\, but many people focus on what they look like and how they work once you’ve got them. Suppose your organization has a very different type of architecture\, however\, how do you move from one to the other?\n\nJoin Sam Newman\, author of [Building Microservices](https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/)\, for an in-depth exploration into how to go about breaking down monolithic systems into microservices. Sam will cut through the buzzwords and be honest about the pros and cons of adopting an architecture that might be radically different from what you have now. By the end of this course\, you’ll have a solid grasp of the principles and a concrete set of tools for breaking apart your own systems.\n\nGo to the event (https://www.safaribooksonline.com/live-training/courses/from-monolith-to-microservices/0636920141389/join/)\n
+SUMMARY:From Monolith to Microservices
+ORGANIZER;CN=O´REILLY MEDIA:mailto:donotreply@oreilly.com
+LOCATION:Online
+X-ALT-DESC:;FMTTYPE=TEXT/HTML:\n<p>Microservices are all the rage at the moment\, but many people focus on what they look like and how they work once you’ve got them. Suppose your organization has a very different type of architecture\, however\, how do you move from one to the other?</p>\n<p>Join Sam Newman\, author of <a href="https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/">Building Microservices</a>\, for an in-depth exploration into how to go about breaking down monolithic systems into microservices. Sam will cut through the buzzwords and be honest about the pros and cons of adopting an architecture that might be radically different from what you have now. By the end of this course\, you’ll have a solid grasp of the principles and a concrete set of tools for breaking apart your own systems.</p>\n<p><a href="https://www.safaribooksonline.com/live-training/courses/from-monolith-to-microservices/0636920141389/join/">Go to the event</a></p>\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:From Monolith to Microservices
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+  :END:
+
+
+* From Monolith to Microservices (CONFIRMED)
+  :PROPERTIES:
+  :ID: 0636920141389-0636920141433
+  :icalCategories: 
+  :END:
+  <2018-06-27 Wed 20:00-23:00>
+  Location: Online
+
+  Microservices are all the rage at the moment, but many people focus
+  on what they look like and how they work once you’ve got
+  them. Suppose your organization has a very different type of
+  architecture, however, how do you move from one to the other?
+
+  Join Sam Newman, author of [[https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/][Building Microservices]], for an in-depth
+  exploration into how to go about breaking down monolithic systems
+  into microservices. Sam will cut through the buzzwords and be honest
+  about the pros and cons of adopting an architecture that might be
+  radically different from what you have now. By the end of this
+  course, you’ll have a solid grasp of the principles and a concrete
+  set of tools for breaking apart your own systems.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/from-monolith-to-microservices/0636920141389/join/)
+
+  Organizer: mailto:donotreply@oreilly.com
+  
+  :ICALENDAR:
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20180627T150000Z
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE-TIME:20180627T120000Z
+TRANSP:OPAQUE
+DTSTAMP;VALUE=DATE-TIME:20180625T173143Z
+UID:0636920141389-0636920141433
+DESCRIPTION:Microservices are all the rage at the moment\, but many people focus on what they look like and how they work once you’ve got them. Suppose your organization has a very different type of architecture\, however\, how do you move from one to the other?\n\nJoin Sam Newman\, author of [Building Microservices](https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/)\, for an in-depth exploration into how to go about breaking down monolithic systems into microservices. Sam will cut through the buzzwords and be honest about the pros and cons of adopting an architecture that might be radically different from what you have now. By the end of this course\, you’ll have a solid grasp of the principles and a concrete set of tools for breaking apart your own systems.\n\nGo to the event (https://www.safaribooksonline.com/live-training/courses/from-monolith-to-microservices/0636920141389/join/)\n
+SUMMARY:From Monolith to Microservices
+ORGANIZER;CN=O´REILLY MEDIA:mailto:donotreply@oreilly.com
+LOCATION:Online
+X-ALT-DESC:;FMTTYPE=TEXT/HTML:\n<p>Microservices are all the rage at the moment\, but many people focus on what they look like and how they work once you’ve got them. Suppose your organization has a very different type of architecture\, however\, how do you move from one to the other?</p>\n<p>Join Sam Newman\, author of <a href="https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/">Building Microservices</a>\, for an in-depth exploration into how to go about breaking down monolithic systems into microservices. Sam will cut through the buzzwords and be honest about the pros and cons of adopting an architecture that might be radically different from what you have now. By the end of this course\, you’ll have a solid grasp of the principles and a concrete set of tools for breaking apart your own systems.</p>\n<p><a href="https://www.safaribooksonline.com/live-training/courses/from-monolith-to-microservices/0636920141389/join/">Go to the event</a></p>\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:From Monolith to Microservices
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+  :END:

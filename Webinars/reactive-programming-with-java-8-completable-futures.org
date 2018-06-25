@@ -1,0 +1,51 @@
+* Reactive Programming with Java 8 Completable Futures  (CONFIRMED)
+  :PROPERTIES:
+  :ID: 0636920189343-0636920189367
+  :icalCategories: 
+  :END:
+  <2018-06-26 Tue 23:00-03:00>
+  Location: Online
+
+  Attendees in this course will learn how to develop efficient
+  reactive programs that run scalably on multi-core processors using
+  powerful object-oriented and functional programming language
+  features and concurrency frameworks supported by Java 8.  This live
+  online training focuses on how Java 8 leverages its functional
+  programming features to create the completable futures
+  framework. This framework defines a powerful reactive programming
+  model that runs multiple asynchronous operations concurrently in a
+  pool of threads and processes their results concurrently.
+
+  This course assumes working knowledge of Java 8 Lambdas and Streams.
+  We recommend taking the first course in this series if you require
+  that training.
+
+  *Course series*:
+  - Programming with Java 8 Lambdas and Streams – Java 8 Concurrency Series, Part 1
+  - Scalable Programming with the Java 8 Parallel Streams – Java 8 Concurrency Series, Part 2
+  - Reactive Programming with the Java 8 Completable Futures – Java 8 Concurrency Series, Part 3
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/reactive-programming-with-java-8-completable-futures/0636920189343/join/)
+
+  Organizer: mailto:donotreply@oreilly.com
+  
+  :ICALENDAR:
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20180626T190000Z
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE-TIME:20180626T150000Z
+TRANSP:OPAQUE
+DTSTAMP;VALUE=DATE-TIME:20180625T180055Z
+UID:0636920189343-0636920189367
+DESCRIPTION:Attendees in this course will learn how to develop efficient reactive programs that run scalably on multi-core processors using powerful object-oriented and functional programming language features and concurrency frameworks supported by Java 8.  This live online training focuses on how Java 8 leverages its functional programming features to create the completable futures framework. This framework defines a powerful reactive programming model that runs multiple asynchronous operations concurrently in a pool of threads and processes their results concurrently.\n\nThis course assumes working knowledge of Java 8 Lambdas and Streams.  We recommend taking the first course in this series if you require that training.\n\n**Course series**:\n\n\n\n- Programming with Java 8 Lambdas and Streams – Java 8 Concurrency Series\, Part 1\n- Scalable Programming with the Java 8 Parallel Streams – Java 8 Concurrency Series\, Part 2\n- Reactive Programming with the Java 8 Completable Futures – Java 8 Concurrency Series\, Part 3\n\n\n\nGo to the event (https://www.safaribooksonline.com/live-training/courses/reactive-programming-with-java-8-completable-futures/0636920189343/join/)\n
+SUMMARY:Reactive Programming with Java 8 Completable Futures 
+ORGANIZER;CN=O´REILLY MEDIA:mailto:donotreply@oreilly.com
+LOCATION:Online
+X-ALT-DESC:;FMTTYPE=TEXT/HTML:\n<p>Attendees in this course will learn how to develop efficient reactive programs that run scalably on multi-core processors using powerful object-oriented and functional programming language features and concurrency frameworks supported by Java 8.  This live online training focuses on how Java 8 leverages its functional programming features to create the completable futures framework. This framework defines a powerful reactive programming model that runs multiple asynchronous operations concurrently in a pool of threads and processes their results concurrently.</p>\n<p>This course assumes working knowledge of Java 8 Lambdas and Streams.  We recommend taking the first course in this series if you require that training.</p>\n<p><strong>Course series</strong>:</p>\n<ul>\n<li>Programming with Java 8 Lambdas and Streams – Java 8 Concurrency Series\, Part 1</li>\n<li>Scalable Programming with the Java 8 Parallel Streams – Java 8 Concurrency Series\, Part 2</li>\n<li>Reactive Programming with the Java 8 Completable Futures – Java 8 Concurrency Series\, Part 3</li>\n</ul>\n<p><a href="https://www.safaribooksonline.com/live-training/courses/reactive-programming-with-java-8-completable-futures/0636920189343/join/">Go to the event</a></p>\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reactive Programming with Java 8 Completable Futures 
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+  :END:

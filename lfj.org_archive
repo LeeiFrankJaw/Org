@@ -1,0 +1,232 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/leiz/ConfRepo/org/lfj.org
+
+
+* DONE Graduation Procedure
+  CLOSED: [2017-06-16 Fri 20:00]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-30 Mon 10:43
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+  <2017-06-16 Fri 09:00>--<2017-06-16 Fri 11:30>
+  交大自考办（法华镇路535号主楼310室）
+  凭本人身份证，新、老准考证原件及复印件
+
+
+
+* DONE Investigate [[file:~/pyspider/][Pyspider]] source code to find out why inheritance doens't work well
+  CLOSED: <2017-06-18 Sun>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-30 Mon 10:43
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+  The `'ChannelHandler' object has no attribute 'channelLogger'` error
+  may relate to the fact that I forgot to click run for each channel.
+
+  If method A works, then use method A.
+
+
+
+* DONE Crawler for Public job and company info from Lagou
+  CLOSED: [2017-07-01 Sat 19:57] DEADLINE: <2017-06-26 Mon>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-30 Mon 10:43
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+
+* DONE Customize Zhaopin for Engma super account
+  CLOSED: <2017-06-14 Wed 07:00> DEADLINE: <2017-06-12 Mon>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-30 Mon 10:43
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+  Where to put the loginpoint_id?
+
+
+
+* DONE Use Paper Trail to log channel spiders
+  CLOSED: [2017-06-16 Fri 19:58] DEADLINE: <2017-06-13 Tue>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-30 Mon 10:43
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+
+* DONE [[file:~/express/db/migration/migrate.py][Script]] Migrating old DB to new DB
+  CLOSED: <2017-06-06 Tue 18:00> DEADLINE: <2017-06-02 Fri>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-30 Mon 10:43
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+#+BEGIN_SRC sql
+START TRANSACTION;
+CREATE SCHEMA tenant_test AUTHORIZATION mesoor;
+CREATE TABLE tenant_test.city AS TABLE public.city;
+CREATE TABLE tenant_test.competency AS TABLE public.competency;
+CREATE TABLE tenant_test.job_competency AS TABLE public.job_competency;
+CREATE TABLE tenant_test.job_category AS TABLE public.job_category;
+CREATE TABLE tenant_test.migrations AS TABLE tenant_chouun.migrations;
+CREATE TABLE tenant_test.channel (LIKE public.channel);
+CREATE TABLE tenant_test.candidate (LIKE public.candidate);
+CREATE TABLE tenant_test.job (LIKE public.job);
+CREATE TABLE tenant_test.job_candidate (LIKE public.job_candidate);
+CREATE TABLE tenant_test.remark (LIKE public.remark);
+CREATE TABLE tenant_test.company_property (LIKE public.company_property);
+CREATE TABLE tenant_test.member (LIKE public.member);
+COMMIT;
+
+DROP SCHEMA IF EXISTS tenant_test CASCADE;
+#+END_SRC
+
+The above approach failed to copy constraints and additional
+information.
+
+#+BEGIN_SRC sql
+SELECT C.name as cName, U.name as uName,
+       CM.role as uRole, U.wechat_id, U.email, U.avatar,
+       U.enabled, U."createAt", U."updateAt", U.version
+FROM company_member CM JOIN "user" U ON U.id = CM."user"
+     JOIN company C ON CM.company = C.id
+ORDER BY C.id;
+#+END_SRC
+
+#+BEGIN_SRC sql
+INSERT into {}.member
+SELECT uuid, {wechat_id}, name, email, avatar, enabled, {role},
+       "createAt", "updateAt", version
+FROM system."user"
+WHERE wechat_id = {wechat_id}
+#+END_SRC
+
+#+BEGIN_SRC sql
+select *
+from company Co join candidate Cd on Co.id = Cd.company
+order by Co.id;
+
+SELECT Co.id AS cid, Co.name AS cname, J.id AS jid,
+       J.name AS jname, JC.candidate as cdid
+FROM job_candidate JC join job J ON J.id = JC.job
+     JOIN company Co ON Co.id = J.publisher
+ORDER BY Co.id, J.id
+LIMIT 1;
+#+END_SRC
+
+#+BEGIN_SRC sql
+CREATE TABLE IF NOT EXISTS {tenant}.job_migration(
+        old_job_id integer PRIMARY KEY,
+        new_job_id integer
+);
+CREATE TABLE IF NOT EXISTS {tenant}.candidate_migration(
+        old_candidate_id integer PRIMARY KEY,
+        new_candidate_id integer
+);
+#+END_SRC
+
+Candidate -> Company
+
+Job_Candidate -> (Candidate, Job) -> Company
+
+
+
+
+
+* TODO Watering the Malabar chestnut
+  SCHEDULED: <2017-12-16 Sat .+20d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2017-11-26 Sun 18:42]
+  :ARCHIVE_TIME: 2017-12-14 Thu 12:29
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: TODO
+  :END:
+  - State "DONE"       from "IN-PROGRESS" [2017-11-26 Sun 18:42]
+  - State "DONE"       from "IN-PROGRESS" [2017-11-21 Tue 09:41]
+  - State "DONE"       from "IN-PROGRESS" [2017-10-28 Sat 10:26]
+  - State "DONE"       from "IN-PROGRESS" [2017-10-07 Sat 15:15]
+  - State "DONE"       from "IN-PROGRESS" [2017-09-06 Wed 18:46]
+  - State "DONE"       from "IN-PROGRESS" [2017-08-22 Tue 13:31]
+  - State "DONE"       from "IN-PROGRESS" [2017-08-03 Thu 14:44]
+  - State "DONE"       from "IN-PROGRESS" [2017-07-08 Sat 15:58]
+  - State "DONE"       from "IN-PROGRESS" [2017-06-19 Mon 13:16]
+  :PROPERTIES:
+  :LAST_REPEAT: [2017-08-03 Thu 14:44]
+  :END:
+
+
+* TODO inspect the following table
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-12-14 Thu 12:30
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: TODO
+  :END:
+
+   id   │          ?column?          │ version 
+────────┼────────────────────────────┼─────────
+    969 │ "595a31c291872c0564b21cd0" │       1
+   1930 │ "598bbb6c961f42134c823a4b" │       1
+ 252657 │ "5948974fd258b116d49069ee" │       1
+ 255999 │ "5948918bdf7cf415341094bc" │       1
+
+
+
+* TODO Shixiseng channel
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-12-14 Thu 12:30
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: TODO
+  :END:
+
+
+
+* DONE Add web-based comment system on personal site
+  CLOSED: [2018-01-01 Mon 22:30] DEADLINE: <2018-01-07 Sun>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-01-01 Mon 22:31
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+
+* DONE [#A] Learn to use password manager
+  CLOSED: [2018-05-06 Sun 12:21]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-05-15 Tue 15:30
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+
+* DONE Bring brush to office
+  CLOSED: [2018-05-16 Wed 14:03]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-05-16 Wed 14:03
+  :ARCHIVE_FILE: ~/ConfRepo/org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+

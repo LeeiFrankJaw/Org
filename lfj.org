@@ -1,0 +1,205 @@
+
+* TODO Review Anki Deck
+  DEADLINE: <2018-07-02 Mon .+1w>
+  :PROPERTIES:
+  :LAST_REPEAT: [2018-06-25 Mon 01:36]
+  :END:
+  - State "DONE"       from "TODO"       [2018-06-25 Mon 01:36]
+  - State "DONE"       from "TODO"       [2018-06-18 Mon 01:49]
+  - State "DONE"       from "TODO"       [2018-06-10 Sun 17:54]
+  - State "DONE"       from "TODO"       [2018-06-03 Sun 14:28]
+  - State "DONE"       from "TODO"       [2018-05-27 Sun 18:28]
+  :LOGBOOK:
+  CLOCK: [2018-06-25 Mon 01:10]--[2018-06-25 Mon 01:36] =>  0:26
+  CLOCK: [2018-06-18 Mon 01:18]--[2018-06-18 Mon 01:49] =>  0:31
+  CLOCK: [2018-06-10 Sun 17:21]--[2018-06-10 Sun 17:54] =>  0:33
+  CLOCK: [2018-06-03 Sun 13:53]--[2018-06-03 Sun 14:27] =>  0:34
+  CLOCK: [2018-05-27 Sun 17:10]--[2018-05-27 Sun 17:28] =>  0:18
+  :END:
+
+
+
+* TODO Migration
+
+Migrate useful sections from this file to independent notes on
+personal site.
+
+** TODO SSH configuration
+
+** TODO SQLAlchemy
+
+** TODO systemd
+
+
+* TODO Learn systemd
+
+
+* TODO Improve Emacs configuration
+
+** TODO Safe local variables
+
+Find a better way to organize safe local variables configuration.
+Putting them all in the Customize interface is ugly especially when
+the same variable has more than one safe values.
+
+
+** TODO [#C] Investigate contacts management in mu4e
+
+
+** DONE [#A] Define mu4e contexts
+   CLOSED: [2018-05-20 Sun 00:46]
+
+The context system is the built-in way to handle multiple account in
+mu4e.
+
+
+** DONE Refine mu4e contexts
+   CLOSED: [2018-06-01 Fri 15:27]
+
+Reply or forward action should automatically detect the contexts
+instead of relying on manual context switching.
+
+
+** DONE suppress region mark in Emacs when CapsLock is on
+   CLOSED: [2018-05-28 Tue 00:05]
+
+
+** DONE Conditional eval view-mode for directory local variables
+   CLOSED: [2018-05-30 Wed 13:49]
+
+Refer to this [[https://emacs.stackexchange.com/q/825/11507][SE]] site on how to check if buffer has an associated
+file.
+
+
+* TODO Discuss Emacs bugs on mailing list
+
+
+** Defect in =smtplib= related to authentication
+
+
+** Bug in =dired-x= related to ~dired-bind-jump~
+
+When ~dired-bind-jump~ is set to nil, it shouldn't set =C-x C-j= and
+=C-x 4 C-j= and should leave them untouched.
+
+
+* TODO MuPDF Scripts
+
+
+** TODO Combine pdf and preserve index and real page number
+
+
+** TODO remove all annotation from PDF file
+
+Some PDFs you get online is annotated by other people.  A script to
+remove such annotation is helpful.
+
+
+* TODO [#C] Organize Calibre Books Tags
+
+Some tags are long and redundant with others and thus should be
+splitted into smaller tags.
+
+
+* TODO [#C] Maildir Script to update timestamp
+
+Most IMAP server do not sort based mail sent date but rather the
+internal date.  A script to update Maildir file timestamp is helpful
+since it will reconstruct roughly correct arrival date from sent date.
+
+
+* TODO [#C] Patch tree command for JSON output
+
+
+* TODO [#C] SQLAlchemy
+
+** TODO [[http://aosabook.org/en/sqlalchemy.html][Architecture]] by Michael Bayer
+
+** TODO [[https://docs.sqlalchemy.org/en/latest/core/tutorial.html][Core]] Tutorial
+
+#+BEGIN_SRC python
+from sqlalchemy import create_engine
+engine = create_engine('sqlite:///:memory:', echo=True)
+#+END_SRC
+=echo= to enable logging via python standard module.
+=create_engine= is lazy.
+
+#+BEGIN_SRC python
+from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
+metadata = MetaData()
+users = Table('users', metadata,
+    Column('id', Integer, primary_key=True),
+    Column('name', String),
+    Column('fullname', String),
+)
+
+addresses = Table('addresses', metadata,
+  Column('id', Integer, primary_key=True),
+  Column('user_id', None, ForeignKey('users.id')),
+  Column('email_address', String, nullable=False)
+)
+#+END_SRC
+
+** TODO [[https://docs.sqlalchemy.org/en/latest/orm/tutorial.html][ORM]] Tutorial
+
+#+BEGIN_SRC python
+from sqlalchemy.ext.declarative import declarative_base
+Base = declarative_base()
+#+END_SRC
+singleton pattern
+
+#+BEGIN_SRC python
+from sqlalchemy import Column, Integer, String
+class User(Basse):
+    __tablename__ = 'users'
+    ...
+#+END_SRC
+
+
+* DONE Write an answer for this question
+  CLOSED: [2018-06-21 Thu 00:26]
+
+https://emacs.stackexchange.com/q/3105/11507
+
+
+* DONE Learn about ssh ControlMaster
+  CLOSED: [2018-06-05 Tue 19:33]
+
+Some good references are:
+ * [[https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing][OpenSSH/Cookbook/Multiplexing]]
+ * [[https://www.gnu.org/software/emacs/manual/html_node/tramp/Frequently-Asked-Questions.html][tramp FAQ]]
+
+Check if control master is running:
+
+#+BEGIN_SRC bash
+  ssh -O check hostname
+#+END_SRC
+
+Close control master:
+
+#+BEGIN_SRC bash
+  ssh -O exit hostname
+#+END_SRC
+
+Start the control master only without doing anything:
+
+#+BEGIN_SRC bash
+  ssh hostname true
+#+END_SRC
+
+
+* DONE Fix the date defect on personal website 
+  CLOSED: [2018-06-03 Sun 02:38]
+
+The dates on the listing and in the content should be same, but now
+they differ.
+
+
+* DONE Make iptables persistent
+  CLOSED: [2018-05-27 Sun 23:16]
+  :LOGBOOK:
+  CLOCK: [2018-05-27 Sun 21:57]--[2018-05-27 Sun 23:16] =>  1:19
+  CLOCK: [2018-05-27 Sun 19:27]--[2018-05-27 Sun 21:10] =>  1:43
+  CLOCK: [2018-05-27 Sun 18:31]--[2018-05-27 Sun 18:58] =>  0:27
+  :END:
+
