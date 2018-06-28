@@ -1,0 +1,21 @@
+#+STARTUP: showall
+
+* Fundamentals of Measurement and Data Analysis for Software Engineers - Part 3 - Statistical Techniques for Data Analysis
+  :PROPERTIES:
+  :ID:       74684625220180628T072500Z
+  :LOCATION:  Webcast
+  :END:
+  <2018-07-10 Tue 00:00-01:00>
+
+  Thank you for registering for Fundamentals of Measurement and Data
+  Analysis for Software Engineers - Part 3 - Statistical Techniques
+  for Data Analysis.
+
+  LIVE WEBCAST DATE   July 09, 2018 
+  LIVE WEBCAST TIME   12 00 PM EDT 
+
+  Use the link below to enter the webcast up to 15 minutes before the start. 
+
+  WEBCAST LINK   https://event.on24.com/wcc/r/1486976/E597125AC34BFE769514A2E8DD0007D3?mode=login
+
+  Thank you and enjoy the webcast!

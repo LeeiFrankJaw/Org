@@ -1,0 +1,58 @@
+#+STARTUP: showall
+
+* Getting Started with DevOps in 90 Minutes  (CONFIRMED)
+  :PROPERTIES:
+  :ID: 0636920189824-0636920189848
+  :icalCategories: 
+  :END:
+  <2018-07-06 Fri 20:30-22:00>
+  Location: Online
+
+  Since emerging in 2008 from the fast-moving companies of Silicon
+  Valley, DevOps has proven to be an essential approach for building
+  and running modern, online software systems for all kinds of
+  companies and organizations. The combination of speed and
+  reliability at the heart of DevOps means that you can respond to
+  customer and market demand while satisfying increasingly demanding
+  regulatory and security requirements. By adopting a truly shared
+  goal—"rapidly and safely"—between the teams building
+  software and the teams running the software systems, DevOps provides
+  a hugely enhanced business capability in almost every industry
+  sector.
+
+  In this hands-on introduction, Matthew Skelton cuts through the
+  marketing spin and hype around DevOps to detail its essential
+  elements. You'll learn what DevOps means and why and how DevOps
+  can benefit your organization as you explore the core ideas of
+  DevOps and how they can address the current challenges in your
+  organization. You'll leave with an understanding of common
+  misconceptions about DevOps, team structures and skills combinations
+  that can work well with DevOps, essential new capabilities for
+  DevOps, the DevOps tooling landscape, and important considerations
+  around infrastructure.
+
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/getting-started-with-devops-in-90-minutes/0636920189824/join/)
+
+  Organizer: mailto:donotreply@oreilly.com
+  
+  :ICALENDAR:
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20180706T140000Z
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE-TIME:20180706T123000Z
+TRANSP:OPAQUE
+DTSTAMP;VALUE=DATE-TIME:20180627T132157Z
+UID:0636920189824-0636920189848
+DESCRIPTION:Since emerging in 2008 from the fast-moving companies of Silicon Valley\, DevOps has proven to be an essential approach for building and running modern\, online software systems for all kinds of companies and organizations. The combination of speed and reliability at the heart of DevOps means that you can respond to customer and market demand while satisfying increasingly demanding regulatory and security requirements. By adopting a truly shared goal—&quot\;rapidly and safely&quot\;—between the teams building software and the teams running the software systems\, DevOps provides a hugely enhanced business capability in almost every industry sector.\n\nIn this hands-on introduction\, Matthew Skelton cuts through the marketing spin and hype around DevOps to detail its essential elements. You&#39\;ll learn what DevOps means and why and how DevOps can benefit your organization as you explore the core ideas of DevOps and how they can address the current challenges in your organization. You&#39\;ll leave with an understanding of common misconceptions about DevOps\, team structures and skills combinations that can work well with DevOps\, essential new capabilities for DevOps\, the DevOps tooling landscape\, and important considerations around infrastructure. \n\n\nGo to the event (https://www.safaribooksonline.com/live-training/courses/getting-started-with-devops-in-90-minutes/0636920189824/join/)\n
+SUMMARY:Getting Started with DevOps in 90 Minutes 
+ORGANIZER;CN=O´REILLY MEDIA:mailto:donotreply@oreilly.com
+LOCATION:Online
+X-ALT-DESC:;FMTTYPE=TEXT/HTML:\n<p>Since emerging in 2008 from the fast-moving companies of Silicon Valley\, DevOps has proven to be an essential approach for building and running modern\, online software systems for all kinds of companies and organizations. The combination of speed and reliability at the heart of DevOps means that you can respond to customer and market demand while satisfying increasingly demanding regulatory and security requirements. By adopting a truly shared goal—"rapidly and safely"—between the teams building software and the teams running the software systems\, DevOps provides a hugely enhanced business capability in almost every industry sector.</p>\n<p>In this hands-on introduction\, Matthew Skelton cuts through the marketing spin and hype around DevOps to detail its essential elements. You'll learn what DevOps means and why and how DevOps can benefit your organization as you explore the core ideas of DevOps and how they can address the current challenges in your organization. You'll leave with an understanding of common misconceptions about DevOps\, team structures and skills combinations that can work well with DevOps\, essential new capabilities for DevOps\, the DevOps tooling landscape\, and important considerations around infrastructure. </p>\n<p><a href="https://www.safaribooksonline.com/live-training/courses/getting-started-with-devops-in-90-minutes/0636920189824/join/">Go to the event</a></p>\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Getting Started with DevOps in 90 Minutes 
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+  :END:

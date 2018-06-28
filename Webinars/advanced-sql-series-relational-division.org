@@ -1,0 +1,27 @@
+#+STARTUP: showall
+
+* Advanced SQL Series: Relational Division (CONFIRMED)
+  :PROPERTIES:
+  :ID: 0636920201762-0636920201984
+  :icalCategories:
+  :END:
+  <2018-07-09 Mon 23:00-02:00>
+  Location: Online
+
+  Structured Query Language—more commonly known as SQL—is an amazing
+  declarative programming language. While easy enough to get started,
+  learning just the syntax and simple use cases will only get you so
+  far. The trickery that you can apply to writing highly efficient and
+  refined logic is mind-blowingly complex. Producing elegant,
+  efficient, and scalable set-based solutions in SQL can be very
+  challenging.
+
+  SQL expert Ami Levin leads a thrilling, action-packed deep dive into
+  relational division. You'll learn how to solve relational division
+  challenges using set operators, COUNTs, JOINs, and nested NOT EXISTS
+  and explore more advanced topics like Todd’s division, Romley’s
+  division, and ordered division.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/advanced-sql-series-relational-division/0636920201762/join/)
+
+  Organizer: mailto:donotreply@oreilly.com
