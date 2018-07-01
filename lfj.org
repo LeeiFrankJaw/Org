@@ -1,15 +1,17 @@
 
 * TODO Review Anki Deck
-  DEADLINE: <2018-07-02 Mon .+1w>
+  DEADLINE: <2018-07-08 Sun .+1w>
   :PROPERTIES:
-  :LAST_REPEAT: [2018-06-25 Mon 01:36]
+  :LAST_REPEAT: [2018-07-01 Sun 18:59]
   :END:
+  - State "DONE"       from "TODO"       [2018-07-01 Sun 18:59]
   - State "DONE"       from "TODO"       [2018-06-25 Mon 01:36]
   - State "DONE"       from "TODO"       [2018-06-18 Mon 01:49]
   - State "DONE"       from "TODO"       [2018-06-10 Sun 17:54]
   - State "DONE"       from "TODO"       [2018-06-03 Sun 14:28]
   - State "DONE"       from "TODO"       [2018-05-27 Sun 18:28]
   :LOGBOOK:
+  CLOCK: [2018-07-01 Sun 18:15]--[2018-07-01 Sun 18:50] =>  0:35
   CLOCK: [2018-06-25 Mon 01:10]--[2018-06-25 Mon 01:36] =>  0:26
   CLOCK: [2018-06-18 Mon 01:18]--[2018-06-18 Mon 01:49] =>  0:31
   CLOCK: [2018-06-10 Sun 17:21]--[2018-06-10 Sun 17:54] =>  0:33
@@ -17,6 +19,21 @@
   CLOCK: [2018-05-27 Sun 17:10]--[2018-05-27 Sun 17:28] =>  0:18
   :END:
 
+
+
+* TODO Configure desktop system for mu4e
+
+  A desktop file and glue script should suffice.  It should handle
+  mailto protocol properly.
+
+  ~x-scheme-handler/mailto~
+
+  I attempted to find the spec for ~x-scheme-handler~ and failed
+  
+  References:
+   - https://tools.ietf.org/html/rfc2368
+   - https://tools.ietf.org/html/rfc6068
+   - http://edoceo.com/howto/xfce-custom-uri-handler
 
 
 * TODO Migration
