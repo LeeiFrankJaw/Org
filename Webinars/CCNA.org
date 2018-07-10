@@ -1,0 +1,25 @@
+* CCNA Routing and Switching 200-125 Crash Course (CONFIRMED)
+  :PROPERTIES:
+  :ID: 0636920180449-0636920180463
+  :icalCategories:
+  :END:
+  <2018-07-11 Wed 23:00-03:00>
+  <2018-07-12 Thu 23:00-03:00>
+  <2018-07-17 Tue 23:00-03:00>
+  <2018-07-19 Thu 23:00-03:00>
+  Location: Online
+
+  The Cisco Certified Network Associate in Routing and Switching (CCNA
+  R/S) certification is one of the most popular certifications in the
+  IT industry. Attainment of this certification not only lets hiring
+  managers know that you’re comfortable working with Cisco routers
+  and switches, but it also enhances and updates your current skill
+  set.
+
+  Interestingly, there are two ways to earn your CCNA R/S
+  certification: (1) Pass two individual exams (the CCENT 100-105 and
+  ICND2 200-105 exams) or (2) Pass one composite exam (the CCNA R/S
+  200-125 exam). This course prepares you for whichever approach
+  (i.e. the one exam or two exam approach) you choose.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/ccna-routing-and-switching-200-125-crash-course/0636920180449/join/)

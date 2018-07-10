@@ -4,7 +4,7 @@
   :ID:       130587094120180625T201300Z
   :LOCATION:  Webcast
   :END:
-  <2018-06-28 Thu 00:00-01:00>
+  <2018-07-13 Thu 00:00-01:00>
 
   Thank you for registering for Scala Is for... Distributed Systems?
   Web Apps? Front-end Development?.

@@ -1,3 +1,4 @@
+# -*- mode: org; -*-
 #+STARTUP: showall
 
 * Getting Started with DevOps in 90 Minutes  (CONFIRMED)
@@ -33,8 +34,6 @@
 
 
   Go to the event (https://www.safaribooksonline.com/live-training/courses/getting-started-with-devops-in-90-minutes/0636920189824/join/)
-
-  Organizer: mailto:donotreply@oreilly.com
   
   :ICALENDAR:
 BEGIN:VEVENT
