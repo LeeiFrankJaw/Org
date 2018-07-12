@@ -4,10 +4,12 @@
   :ID:       130587094120180625T201300Z
   :LOCATION:  Webcast
   :END:
-  <2018-07-13 Thu 00:00-01:00>
+  <2018-07-13 Fri 00:00-01:00>
 
   Thank you for registering for Scala Is for... Distributed Systems?
   Web Apps? Front-end Development?.
 
-  LIVE WEBCAST DATE   June 27, 2018 
+  LIVE WEBCAST DATE   July 13, 2018 
   LIVE WEBCAST TIME   12 00 PM EDT
+
+  https://event.on24.com/wcc/r/1661104/65F04ED8C2D59556A137360D823270B3?partnerref=vip

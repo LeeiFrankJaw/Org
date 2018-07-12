@@ -1,0 +1,22 @@
+#+STARTUP: showall
+
+* Linux Under the Hood
+  :PROPERTIES:
+  :ID: 0636920187868-0636920187882
+  :icalCategories: 
+  :END:
+  <2018-08-20 Mon 22:00-01:00>
+
+  Location: Online
+
+  Learn the power of Linux in 3 hours.  To truly get the most out of
+  Linux you need to understand Linux internals.  In this training
+  session, Sander van Vugt will show you how Linux works, from seeing
+  how the operating system is organized and using the C code, scripts,
+  and compiled programs to exploring the kernel and hardware handling.
+  Learning Linux can be challenging especially if you don’t
+  understand its internals.  This training session unmasks the
+  complexities so you can better understand and get the most out of
+  Linux today.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/linux-under-the-hood/0636920187868/join/)

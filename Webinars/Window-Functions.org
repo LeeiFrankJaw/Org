@@ -1,0 +1,30 @@
+#+STARTUP: showall
+
+* Advanced SQL Series: Window Functions
+  :PROPERTIES:
+  :ID: 0636920194620-0636920197751
+  :icalCategories: 
+  :END:
+  <2018-08-16 Thu 00:00-03:00>
+
+  Location: Online
+
+  Structured Query Language—more commonly known as SQL—is an amazing
+  declarative programming language.  While easy enough to get started,
+  a basic command of the syntax and familiarity with simple use cases
+  will only get you so far.  The trickery that you can apply to
+  writing highly efficient and refined logic is mind-blowingly
+  complex.  As a result, producing elegant, efficient, and scalable
+  set-based solutions in SQL can be very challenging.
+
+  Join expert Ami Levin for a thrilling, action-packed dive into
+  window functions in SQL.  Ami will take apart common programming
+  challenges that are typically hard to solve using conventional means
+  and teach you how to solve them using pure set-based SQL.  Along the
+  way, Ami demonstrates methodologies and techniques that you can
+  later use to solve any other SQL challenge.  These newly acquired
+  tools will not only make your everyday programming tasks easier and
+  more fun but also impress your colleagues and managers.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/advanced-sql-series-window-functions/0636920194620/join/)
+  

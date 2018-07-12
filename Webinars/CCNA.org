@@ -1,4 +1,4 @@
-* CCNA Routing and Switching 200-125 Crash Course (CONFIRMED)
+* CCNA Routing and Switching 200-125 Crash Course
   :PROPERTIES:
   :ID: 0636920180449-0636920180463
   :icalCategories:

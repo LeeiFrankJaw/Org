@@ -1,0 +1,31 @@
+#+STARTUP: showall
+
+* Modern real-time streaming architectures
+  :PROPERTIES:
+  :ID: 0636920182825-0636920195979
+  :icalCategories: 
+  :END:
+  <2018-08-23 Thu 21:00-00:00>
+  Location: Online
+
+  Across diverse segments in industry, there has been a shift in focus
+  from big data to fast data, stemming from both the deluge of
+  high-velocity data streams and the need for instant data-driven
+  insights.  It's now critical to mine business insights from data
+  streams in a robust and timely fashion, which requires a highly
+  available, reliable, and performant end-to-end stream processing
+  system.
+
+  Join Karthik Ramasamy and Arun Kejariwal to explore state-of-the-art
+  streaming systems and their deployment in production at internet
+  scale.  Karthik and Arun walk you through the different types of
+  analysis carried out on data streams and lead a deep dive into
+  commonly used algorithms (also referred to as data sketches) for
+  each.  You'll discover the typical challenges in modern real-time
+  big data platforms and learn how to address them.  Along the way,
+  Karthik and Arun explain how advances in technology might impact the
+  streaming architectures and applications of the future, investigate
+  the interplay between storage and stream processing, and speculate
+  about future developments.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/modern-real-time-streaming-architectures/0636920182825/join/)
