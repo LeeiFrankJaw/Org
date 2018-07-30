@@ -1,9 +1,10 @@
 
 * TODO Review Anki Deck
-  DEADLINE: <2018-07-16 Mon .+1w>
+  DEADLINE: <2018-07-22 Sun .+1w>
   :PROPERTIES:
-  :LAST_REPEAT: [2018-07-09 Mon 01:18]
+  :LAST_REPEAT: [2018-07-15 Sun 23:53]
   :END:
+  - State "DONE"       from "TODO"       [2018-07-15 Sun 23:53]
   - State "DONE"       from "TODO"       [2018-07-09 Mon 01:18]
   - State "DONE"       from "TODO"       [2018-07-01 Sun 18:59]
   - State "DONE"       from "TODO"       [2018-06-25 Mon 01:36]
@@ -12,6 +13,10 @@
   - State "DONE"       from "TODO"       [2018-06-03 Sun 14:28]
   - State "DONE"       from "TODO"       [2018-05-27 Sun 18:28]
   :LOGBOOK:
+  CLOCK: [2018-07-30 Mon 23:13]--[2018-07-31 Tue 01:02] =>  1:49
+  CLOCK: [2018-07-30 Mon 21:58]--[2018-07-30 Mon 23:10] =>  1:12
+  CLOCK: [2018-07-30 Mon 20:29]--[2018-07-30 Mon 21:03] =>  0:34
+  CLOCK: [2018-07-15 Sun 22:53]--[2018-07-15 Sun 23:53] =>  1:00
   CLOCK: [2018-07-08 Sun 23:15]--[2018-07-09 Mon 01:17] =>  2:02
   CLOCK: [2018-07-01 Sun 18:15]--[2018-07-01 Sun 18:50] =>  0:35
   CLOCK: [2018-06-25 Mon 01:10]--[2018-06-25 Mon 01:36] =>  0:26
@@ -21,6 +26,12 @@
   CLOCK: [2018-05-27 Sun 17:10]--[2018-05-27 Sun 17:28] =>  0:18
   :END:
 
+
+
+* TODO Learn logrotate
+
+  References:
+   - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s2-log_rotation
 
 
 * TODO Configure desktop system for mu4e

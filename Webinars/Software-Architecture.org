@@ -2,10 +2,10 @@
 
 * Software architecture for developers
   :PROPERTIES:
-  :ID: 0636920193739-0636920193760
+  :ID: 0636920205258-0636920205272
   :icalCategories: 
   :END:
-  <2018-07-13 Fri 20:00-23:00>
+  <2018-08-24 Fri 22:00-01:00>
 
   Location: Online
 
@@ -24,4 +24,4 @@
   projects that's pragmatic rather than academic, and lightweight
   rather than "enterprisey".
 
-  Go to the event (https://www.safaribooksonline.com/live-training/courses/software-architecture-for-developers/0636920193739/join/)
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/software-architecture-for-developers/0636920205258/join/)

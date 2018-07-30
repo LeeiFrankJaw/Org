@@ -1,0 +1,29 @@
+#+STARTUP: showall
+
+* Advanced SQL Series: Proximal and Linear Interpolations
+  :PROPERTIES:
+  :ID: 0636920194606-0636920197744
+  :icalCategories: 
+  :END:
+  <2018-08-07 Tue 00:00-03:00>
+
+  Location: Online
+
+  Structured Query Language—more commonly known as SQL—is an amazing
+  declarative programming language. While easy enough to get started,
+  a basic command of the syntax and familiarity with simple use cases
+  will only get you so far. The trickery that you can apply to writing
+  highly efficient and refined logic is mind-blowingly complex. As a
+  result, producing elegant, efficient, and scalable set-based
+  solutions in SQL can be very challenging.
+
+  Join expert Ami Levin to explore advanced topics in SQL. Through a
+  series of hands-on exercises, you'll explore and learn how to use
+  proximal and linear interpolations to improve performance,
+  readability, and scalability of your SQL queries. Along the way, Ami
+  demonstrates methodologies and techniques that you can later use to
+  solve any other SQL challenge. These newly acquired tools will not
+  only make your everyday programming tasks easier and more fun but
+  also impress your colleagues and managers.
+
+  Go to the event (https://www.safaribooksonline.com/live-training/courses/advanced-sql-series-proximal-and-linear-interpolations/0636920194606/join/)
