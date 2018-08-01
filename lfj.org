@@ -1,9 +1,10 @@
 
 * TODO Review Anki Deck
-  DEADLINE: <2018-07-22 Sun .+1w>
+  DEADLINE: <2018-08-07 Tue .+1w>
   :PROPERTIES:
-  :LAST_REPEAT: [2018-07-15 Sun 23:53]
+  :LAST_REPEAT: [2018-08-01 Wed 22:51]
   :END:
+  - State "DONE"       from "TODO"       [2018-07-31 Tue 01:02]
   - State "DONE"       from "TODO"       [2018-07-15 Sun 23:53]
   - State "DONE"       from "TODO"       [2018-07-09 Mon 01:18]
   - State "DONE"       from "TODO"       [2018-07-01 Sun 18:59]

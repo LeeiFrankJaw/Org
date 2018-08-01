@@ -1,0 +1,20 @@
+#+STARTUP: showall
+
+* The Bayesian Zig Zag: Developing Probabilistic Models Using Grid Methods and MCMC
+  :PROPERTIES:
+  :ID:       206533650620180730T212000Z
+  :LOCATION:  Webcast
+  :END:
+  <2018-08-16 Thu 00:00-01:00>
+
+  Thank you for registering for The Bayesian Zig Zag Developing
+  Probabilistic Models Using Grid Methods and MCMC.
+
+  LIVE WEBCAST DATE   August 15, 2018
+  LIVE WEBCAST TIME   12 00 PM EDT
+
+  Use the link below to enter the webcast up to 15 minutes before the start.
+
+  WEBCAST LINK   https://event.on24.com/wcc/r/1669229/84BB921AD720393A89E8CA7A06D48F0C
+
+  Thank you and enjoy the webcast!
