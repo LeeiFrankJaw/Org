@@ -13,7 +13,7 @@
   ~x-scheme-handler/mailto~
 
   I attempted to find the spec for ~x-scheme-handler~ and failed.
-  
+
   References:
    - https://tools.ietf.org/html/rfc2368
    - https://tools.ietf.org/html/rfc6068
@@ -44,29 +44,8 @@ the same variable has more than one safe values.
 ** TODO [#C] Investigate contacts management in mu4e
 
 
-** DONE [#A] Define mu4e contexts
-   CLOSED: [2018-05-20 Sun 00:46]
-
-The context system is the built-in way to handle multiple account in
-mu4e.
-
-
-** DONE Refine mu4e contexts
-   CLOSED: [2018-06-01 Fri 15:27]
-
-Reply or forward action should automatically detect the contexts
-instead of relying on manual context switching.
-
-
-** DONE suppress region mark in Emacs when CapsLock is on
-   CLOSED: [2018-05-28 Tue 00:05]
-
-
-** DONE Conditional eval view-mode for directory local variables
-   CLOSED: [2018-05-30 Wed 13:49]
-
-Refer to this [[https://emacs.stackexchange.com/q/825/11507][SE]] site on how to check if buffer has an associated
-file.
+** TODO Create parent directory for files if not already exists
+   See https://emacs.stackexchange.com/q/425/11507
 
 
 * TODO Discuss Emacs bugs on mailing list
@@ -155,16 +134,13 @@ class User(Basse):
 
 
 * TODO [#A] Create an PR for ensime-sbt
+
   Java 11 now ships ~src.zip~ under ~lib~ as ~lib/src.zip~ and
   =ensime-sbt= cannot find it.
 
 
-* TODO [#A] Create an PR for sbt website
-  Update [[https://www.scala-sbt.org/1.x/docs/sbt-by-example.html][sbt by example]] to use https://www.metaweather.com/api/ since
-  Yahoo API no longer works.
-
-
 * TODO Discuss about a problem caused by anonymous function
+
   The example given at http://eed3si9n.com/gigahorse/concepts.html
   does not work; however, it works after factoring out the second
   argument to ~http.run~ as named function.

@@ -362,3 +362,75 @@ they differ.
 
 
 
+
+* DONE [#A] Define mu4e contexts
+  CLOSED: [2018-05-20 Sun 00:46]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-19 Tue 21:28
+  :ARCHIVE_FILE: ~/Org/lfj.org
+  :ARCHIVE_OLPATH: Improve Emacs configuration
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+The context system is the built-in way to handle multiple account in
+mu4e.
+
+
+
+* DONE Refine mu4e contexts
+  CLOSED: [2018-06-01 Fri 15:27]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-19 Tue 21:28
+  :ARCHIVE_FILE: ~/Org/lfj.org
+  :ARCHIVE_OLPATH: Improve Emacs configuration
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+Reply or forward action should automatically detect the contexts
+instead of relying on manual context switching.
+
+
+
+* DONE suppress region mark in Emacs when CapsLock is on
+  CLOSED: [2018-05-28 Tue 00:05]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-19 Tue 21:28
+  :ARCHIVE_FILE: ~/Org/lfj.org
+  :ARCHIVE_OLPATH: Improve Emacs configuration
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+
+* DONE Conditional eval view-mode for directory local variables
+  CLOSED: [2018-05-30 Wed 13:49]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-19 Tue 21:28
+  :ARCHIVE_FILE: ~/Org/lfj.org
+  :ARCHIVE_OLPATH: Improve Emacs configuration
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+Refer to this [[https://emacs.stackexchange.com/q/825/11507][SE]] site on how to check if buffer has an associated
+file.
+
+
+* DONE [#A] Create an PR for sbt website
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-21 Thu 00:00
+  :ARCHIVE_FILE: ~/Org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+
+  Update [[https://www.scala-sbt.org/1.x/docs/sbt-by-example.html][sbt by example]] to use https://www.metaweather.com/api/ since
+  Yahoo API no longer works.
+  
+  I have created the [[https://github.com/sbt/website/pull/765][PR]], but it failed the tests.  [[https://github.com/eed3si9n][Yokota]] helped me
+  make it passed and then it got merged.
+
+
