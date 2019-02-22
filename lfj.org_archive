@@ -329,14 +329,16 @@ they differ.
 
 
 * TODO Review Anki Deck
-  DEADLINE: <2018-08-07 Tue .+1w>
+  DEADLINE: <2018-10-23 Tue .+1w>
   :PROPERTIES:
-  :LAST_REPEAT: [2018-08-01 Wed 22:51]
+  :LAST_REPEAT: [2018-10-16 Tue 15:28]
   :ARCHIVE_TIME: 2019-02-18 Mon 01:09
   :ARCHIVE_FILE: ~/Org/lfj.org
   :ARCHIVE_CATEGORY: lfj
   :ARCHIVE_TODO: TODO
   :END:
+  - State "DONE"       from "TODO"       [2018-10-16 Tue 15:28]
+  - State "DONE"       from "TODO"       [2018-10-09 Tue 16:07]
   - State "DONE"       from "TODO"       [2018-07-31 Tue 01:02]
   - State "DONE"       from "TODO"       [2018-07-15 Sun 23:53]
   - State "DONE"       from "TODO"       [2018-07-09 Mon 01:18]
