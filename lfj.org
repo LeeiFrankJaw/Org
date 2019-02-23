@@ -44,10 +44,6 @@ the same variable has more than one safe values.
 ** TODO [#C] Investigate contacts management in mu4e
 
 
-** TODO Create parent directory for files if not already exists
-   See https://emacs.stackexchange.com/q/425/11507
-
-
 * TODO Discuss Emacs bugs on mailing list
 
 

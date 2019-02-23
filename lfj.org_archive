@@ -436,3 +436,15 @@ file.
   make it passed and then it got merged.
 
 
+
+* DONE Create missing parent directories for the opened file
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-22 Fri 13:29
+  :ARCHIVE_FILE: ~/Org/lfj.org
+  :ARCHIVE_OLPATH: Improve Emacs configuration
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+  See https://emacs.stackexchange.com/a/47982/11507
+
+
