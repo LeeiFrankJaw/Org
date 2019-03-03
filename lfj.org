@@ -140,3 +140,9 @@ class User(Basse):
   The example given at http://eed3si9n.com/gigahorse/concepts.html
   does not work; however, it works after factoring out the second
   argument to ~http.run~ as named function.
+
+
+
+* ENSIME refactor infinitely applying hunk bug
+
+See https://github.com/ensime/ensime-emacs/pull/702
