@@ -1,3 +1,16 @@
+#+OPTIONS: ^:{}
+
+* Reply Message
+  :LOGBOOK:
+  CLOCK: [2019-03-06 Wed 14:08]--[2019-03-06 Wed 15:04] =>  0:56
+  CLOCK: [2019-03-06 Wed 12:46]--[2019-03-06 Wed 13:01] =>  0:15
+  :END:
+
+
+* O'Reilly Style Guide
+
+http://oreillymedia.github.io/production-resources/styleguide/
+
 
 * TODO Learn logrotate
 
@@ -146,3 +159,61 @@ class User(Basse):
 * ENSIME refactor infinitely applying hunk bug
 
 See https://github.com/ensime/ensime-emacs/pull/702
+
+
+* Anchor does not work on Safari
+
+This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][link]] is an example.
+
+
+* Buildship won't update
+
+See [[https://github.com/eclipse/buildship/issues/488][#488]].
+
+
+* TODO Report ENSIME implicit dependency
+
+ENSIME depends on package ~expand-region~.
+
+
+* Markdown differences
+
+On GitHub, Markdown will insert ~<br>~ tag into the output inside
+paragraph.
+
+
+* DBeaver peculiarities
+
+  * Remove ~auto-increment~ from extra before unticking auto-increment
+    checkbox.  Otherwise, it won't apply.
+
+  * Removing foreign key doesn't remove automatically created index
+    with the same name.
+
+  * Sometimes you need invalidate/reconnect the connection to reflect
+    the changes.
+
+
+* FreeBSD after chsh, the shell doesn't update
+
+  After you change chsh by executing /chsh/, you re-login with old
+  shell.  Possible cause may be the SSH Control Master.
+
+
+* Configure git to display CJK chars
+
+  #+BEGIN_SRC bash
+    git config --global core.quotepath off
+  #+END_SRC
+
+
+* Set FreeBSD locale to UTF-8
+
+  Change /~/​.login_conf/ to the following.
+
+  #+BEGIN_EXAMPLE
+    me:\
+            :charset=UTF-8:\
+            :lang=en_US.UTF-8:
+  #+END_EXAMPLE
+
