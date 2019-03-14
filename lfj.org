@@ -209,7 +209,7 @@ paragraph.
 
 * Set FreeBSD locale to UTF-8
 
-  Change /~/​.login_conf/ to the following.
+  Change =~/.login_conf= to the following.
 
   #+BEGIN_EXAMPLE
     me:\
@@ -217,3 +217,10 @@ paragraph.
             :lang=en_US.UTF-8:
   #+END_EXAMPLE
 
+
+* Uninstall plugins for Safari on macOS
+
+  Plug-ins are located under ~/Library/Internet Plug-Ins/~.  Simply
+  remove them from this directory.
+
+  Refer https://www.microsoft.com/getsilverlight/get-started/install/removing-silverlight-mac
