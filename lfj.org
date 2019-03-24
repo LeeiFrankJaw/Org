@@ -224,3 +224,10 @@ paragraph.
   remove them from this directory.
 
   Refer https://www.microsoft.com/getsilverlight/get-started/install/removing-silverlight-mac
+
+
+* DONE Investigate Active Directory
+
+  Read [[https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/bb727030(v=technet.10)][Active Directory Architecture]].
+
+  Skim through [[https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/d2435927-0999-4c62-8c6d-13ba31a52e1a][Active Directory Technical Specification]].
