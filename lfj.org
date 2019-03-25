@@ -226,6 +226,21 @@ paragraph.
   Refer https://www.microsoft.com/getsilverlight/get-started/install/removing-silverlight-mac
 
 
+* About Debian alternative system
+
+  Get a list of all link groups
+
+  #+BEGIN_SRC bash
+    update-alternatives --get-selections
+  #+END_SRC
+
+  Display information about a group.
+
+  #+BEGIN_SRC bash
+    update-alternatives --display gnome-www-browser
+  #+END_SRC
+
+
 * DONE Investigate Active Directory
 
   Read [[https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/bb727030(v=technet.10)][Active Directory Architecture]].
