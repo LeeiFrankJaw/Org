@@ -1,12 +1,5 @@
 #+OPTIONS: ^:{}
 
-* Reply Message
-  :LOGBOOK:
-  CLOCK: [2019-03-06 Wed 14:08]--[2019-03-06 Wed 15:04] =>  0:56
-  CLOCK: [2019-03-06 Wed 12:46]--[2019-03-06 Wed 13:01] =>  0:15
-  :END:
-
-
 * O'Reilly Style Guide
 
 http://oreillymedia.github.io/production-resources/styleguide/
@@ -147,6 +140,10 @@ class User(Basse):
   Java 11 now ships ~src.zip~ under ~lib~ as ~lib/src.zip~ and
   =ensime-sbt= cannot find it.
 
+  Under Ubuntu, this also caused a problem. The file ~src.zip~ was
+  linked to ~../openjdk-11/src.zip~ but should be
+  ~../openjdk-11/lib/src.zip~ instead.
+
 
 * TODO Discuss about a problem caused by anonymous function
 
@@ -228,7 +225,7 @@ paragraph.
 
 * About Debian alternative system
 
-  Get a list of all link groups
+  Get a list of all link groups.
 
   #+BEGIN_SRC bash
     update-alternatives --get-selections
@@ -240,9 +237,69 @@ paragraph.
     update-alternatives --display gnome-www-browser
   #+END_SRC
 
+  Add a group of alternatives.
+
+  #+BEGIN_SRC bash
+    update-alternatives --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/google-chrome-stable 20
+  #+END_SRC
+
 
 * DONE Investigate Active Directory
 
   Read [[https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/bb727030(v=technet.10)][Active Directory Architecture]].
 
   Skim through [[https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/d2435927-0999-4c62-8c6d-13ba31a52e1a][Active Directory Technical Specification]].
+
+
+* TODO Write new answers for SE questions
+
+** TODO GNOME 3 Alt+Tab vs Super+Tab
+
+   https://unix.stackexchange.com/q/465681/81809
+
+   #+BEGIN_SRC bash
+     gsettings list-recursively org.gnome.desktop.wm.keybindings
+   #+END_SRC
+
+
+** TODO Horizontal scroll for Ubuntu 18.04
+
+   https://askubuntu.com/q/1029128/108910
+
+
+** TODO Exception list for icedtea-web
+
+   https://stackoverflow.com/q/41727963/2117531
+
+   https://stackoverflow.com/a/25950032/2117531
+
+   https://icedtea.classpath.org/wiki/IcedTea-Web#Configuration
+
+   http://mail.openjdk.java.net/pipermail/distro-pkg-dev/2016-March/034974.html
+
+
+* Luatexja requires IPAEx fonts to run under Linux
+
+  Use the following command to install IPAEx Mincho and Gothic.
+
+  #+BEGIN_SRC bash
+    apt install fonts-ipaexfont
+  #+END_SRC
+
+
+* Byzanz screencast
+
+  It only works with flv for audio.
+
+  #+BEGIN_SRC bash
+    byzanz-record -v -d 15 -a screencast.flv
+  #+END_SRC
+
+  For video only, webm also works.
+
+#+BEGIN_SRC bash
+  byzanz-record -v -d 15 screencast.webm
+#+END_SRC
+
+  The output in ogv format cannot be played by MPlayer but can be
+  played by Totem.
