@@ -303,3 +303,50 @@ paragraph.
 
   The output in ogv format cannot be played by MPlayer but can be
   played by Totem.
+
+  Byzanz only works for relatively /short/ clips.
+
+
+* System program problem detected
+
+  Simply remove all the old crashes from directory =/var/crash/=.
+
+  #+BEGIN_SRC bash
+    rm /var/crash/*
+  #+END_SRC
+
+  Using =apport-cli= to upload these crashes may be a better option.
+
+  #+BEGIN_SRC bash
+    for i in /var/crash/*.crash; do
+        if [ ! -e ${i::-6}.upload ]; then
+            apport-cli -c $i
+        fi
+    done
+  #+END_SRC
+
+  The script =/usr/bin/apport-bug= is incorrect and the check of
+  apport installation should be modified as follows.
+
+  #+BEGIN_SRC sh
+    if [ "${0%-collect}" != "$0" ]; then
+        prefix=/usr/bin/python3
+        if ! /usr/bin/python3 -c 'import apport' 2>/dev/null; then
+            echo "You need to run 'sudo apt-get install python3-apport' for apport-collect to work." >&2
+            exit 1
+        fi
+    fi
+  #+END_SRC
+
+
+* Force youtube-dl, wget to use IPv4
+
+  Due to the primarily IPv4 infrastructure, it sometimes fixes
+  connection by force IPv4.
+
+
+* Prevent system python to add unwanted paths to =sys.path=
+
+  This behavior is mainly controlled by the =site.py= package.  Just
+  comment out invocation of =addusersitepackages= from =site.main= and
+  relevant section from =site.getsitepackages=.
