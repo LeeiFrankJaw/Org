@@ -317,13 +317,7 @@ paragraph.
 
   Using =apport-cli= to upload these crashes may be a better option.
 
-  #+BEGIN_SRC bash
-    for i in /var/crash/*.crash; do
-        if [ ! -e ${i::-6}.upload ]; then
-            apport-cli -c $i
-        fi
-    done
-  #+END_SRC
+  See [[file:~/Portfolio/Scripts/apport][apport]] script for automation.
 
   The script =/usr/bin/apport-bug= is incorrect and the check of
   apport installation should be modified as follows.
@@ -339,14 +333,33 @@ paragraph.
   #+END_SRC
 
 
-* Force youtube-dl, wget to use IPv4
+* Walkaround youtube-dl problems
 
-  Due to the primarily IPv4 infrastructure, it sometimes fixes
-  connection by force IPv4.
+** Force youtube-dl to use IPv4
+
+  Due to the primarily IPv4 infrastructure, it can be fixed sometimes
+  by forcing IPv4.
+
+
+** Try different formats
+
+   Try different formats when youtube-dl complains that it doesn't get
+   any data blocks.
+
+
+* Disable IPv6 system-wide
+
+  Tools like =youtube-dl=, =wget=, =mbsync= exhibit problems with
+  IPv6.  Especially for =mbsync=, it has no simple option to choose
+  IPv4, unlike the other two tools.
+
+  See [[file:~/ConfRepo/sysctl.d/60-ipv6-disable.conf][sysctl.d/60-ipv6-disable.conf]] and [[file:~/ConfRepo/NetworkManager/dispatcher.d/01ipv6][NetworkManager/dispatcher.d/01ipv6]].
 
 
 * Prevent system python to add unwanted paths to =sys.path=
 
   This behavior is mainly controlled by the =site.py= package.  Just
-  comment out invocation of =addusersitepackages= from =site.main= and
-  relevant section from =site.getsitepackages=.
+  set =ENABLE_USER_SITE= to =False= and comment out relevant section
+  from =site.getsitepackages=.  The call to =addusersitepackages=
+  actually sets =site.USER_SITE=, which is used by other packages; and
+  thus don't comment it out.
