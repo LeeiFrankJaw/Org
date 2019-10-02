@@ -355,6 +355,18 @@ paragraph.
 
   See [[file:~/ConfRepo/sysctl.d/60-ipv6-disable.conf][sysctl.d/60-ipv6-disable.conf]] and [[file:~/ConfRepo/NetworkManager/dispatcher.d/01ipv6][NetworkManager/dispatcher.d/01ipv6]].
 
+  Refereces:
+   * https://www.thegeekdiary.com/centos-rhel-7-how-to-disable-ipv6/
+   * https://askubuntu.com/a/337736/108910
+   * http://ask.xmodulo.com/disable-ipv6-linux.html
+
+
+* Linux Documentation
+
+  #+BEGIN_SRC bash
+    apt install linux-doc
+  #+END_SRC
+
 
 * Prevent system python to add unwanted paths to =sys.path=
 
@@ -363,3 +375,31 @@ paragraph.
   from =site.getsitepackages=.  The call to =addusersitepackages=
   actually sets =site.USER_SITE=, which is used by other packages; and
   thus don't comment it out.
+
+
+* Gmail and Outlook.com 
+
+** IMAP behaviors
+
+   Gmail: Auto-expunge off, move to trash, mbsync expunge slave.  This
+   is only way to delete emails from IMAP for mbsync.  Use d for
+   deletion.
+
+   Outlook.com: mbsync expunge both, restoring deleted messages require
+   expunge being none if trash mark was set.  Use D for deletion
+   instead.
+
+   * [[https://github.com/djcb/mu/issues/1136][Shouldn't set flag T after moving to trash]]
+   * [[https://support.office.com/en-us/article/cf06ab1b-ae0b-418c-a4d9-4e895f83ed50][Restore deleted email messages in Outlook.com]]
+
+
+** Query Languages
+
+   Sadly, Outlook.com has no filter for folders.  To archieve the same
+   effect, you have to use the graphical interface.  
+
+   The query language for Gmail is much more expressive than that for
+   Outlook.com.
+
+   * [[https://support.google.com/mail/answer/7190?hl=en][Search operators you can use with Gmail]]
+   * [[https://support.office.com/en-us/article/88108edf-028e-4306-b87e-7400bbb40aa7][Search Mail and People in Outlook.com]]
