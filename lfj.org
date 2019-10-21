@@ -332,6 +332,8 @@ paragraph.
     fi
   #+END_SRC
 
+  The domain for apport destination is /daisy.ubuntu.com/.
+
 
 * Walkaround youtube-dl problems
 
@@ -348,17 +350,26 @@ paragraph.
 
 
 * Disable IPv6 system-wide
+  :LOGBOOK:
+  CLOCK: [2019-10-21 Mon 12:47]--[2019-10-21 Mon 12:53] =>  0:06
+  :END:
 
   Tools like =youtube-dl=, =wget=, =mbsync= exhibit problems with
   IPv6.  Especially for =mbsync=, it has no simple option to choose
   IPv4, unlike the other two tools.
 
-  See [[file:~/ConfRepo/sysctl.d/60-ipv6-disable.conf][sysctl.d/60-ipv6-disable.conf]] and [[file:~/ConfRepo/NetworkManager/dispatcher.d/01ipv6][NetworkManager/dispatcher.d/01ipv6]].
+  See [[file:~/ConfRepo/etc/sysctl.d/60-ipv6-disable.conf][60-ipv6-disable.conf]], [[file:~/ConfRepo/etc/NetworkManager/dispatcher.d/01ipv6][01ipv6]], and [[file:~/ConfRepo/etc/default/grub][grub]].
 
   Refereces:
    * https://www.thegeekdiary.com/centos-rhel-7-how-to-disable-ipv6/
    * https://askubuntu.com/a/337736/108910
    * http://ask.xmodulo.com/disable-ipv6-linux.html
+
+
+** Aftermath
+
+   This affect /redis-server/.  Remove =bind ::1= from =/etc/redis/redis.conf=.
+
 
 
 * Linux Documentation
@@ -369,12 +380,21 @@ paragraph.
 
 
 * Prevent system python to add unwanted paths to =sys.path=
+  :LOGBOOK:
+  CLOCK: [2019-10-21 Mon 12:17]--[2019-10-21 Mon 12:47] =>  0:30
+  :END:
 
   This behavior is mainly controlled by the =site.py= package.  Just
   set =ENABLE_USER_SITE= to =False= and comment out relevant section
   from =site.getsitepackages=.  The call to =addusersitepackages=
   actually sets =site.USER_SITE=, which is used by other packages; and
   thus don't comment it out.
+
+  The problem with this approach is that the modification is reverted
+  every time the system python is upgraded by =apt=.  This, however, can
+  be solved by =dpkg-divert=.
+
+  * [[https://unix.stackexchange.com/a/479423/81809][debian - apt-get Post-hook for specific package]]
 
 
 * Gmail and Outlook.com 
