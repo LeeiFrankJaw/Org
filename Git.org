@@ -1,0 +1,28 @@
+
+* Move head to previous commit
+
+  #+BEGIN_SRC bash
+    git reset HEAD^
+  #+END_SRC
+
+  * [[https://stackoverflow.com/a/7310222/2117531][git - How do I make a branch point at a specific commit?]]
+
+
+* Prune unreachable commits
+
+  #+BEGIN_SRC bash
+    git reflog expire --expire-unreachable=now --all
+    git fsck --unreachable
+    git gc --prune=now
+  #+END_SRC
+
+  * [[https://stackoverflow.com/a/46356540/2117531][Listing and deleting Git commits that are under no branch (dangling?)]]
+
+
+* Configure git to display CJK chars
+
+  #+BEGIN_SRC bash
+    git config --global core.quotepath off
+  #+END_SRC
+
+
