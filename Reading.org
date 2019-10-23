@@ -1,0 +1,33 @@
+
+* 02197
+
+
+* 04737
+  :LOGBOOK:
+  CLOCK: [2019-10-22 Tue 19:17]--[2019-10-22 Tue 20:52] =>  1:35
+  :END:
+
+
+* 04741
+
+
+* 04747
+
+
+* A Tour of C++
+  :LOGBOOK:
+  CLOCK: [2019-10-23 Wed 17:45]--[2019-10-23 Wed 18:37] =>  0:52
+  CLOCK: [2019-10-23 Wed 15:30]--[2019-10-23 Wed 17:14] =>  1:44
+  CLOCK: [2019-10-22 Tue 20:54]--[2019-10-22 Tue 21:56] =>  1:02
+  :END:
+
+  [[https://learning.oreilly.com/api/v1/dashboard/continue/9780134998053][Continue Reading]]
+
+  * [[https://en.cppreference.com/w/cpp/language/initializer_list][Constructors and member initializer lists]]
+  * [[https://www.ibm.com/support/knowledgecenter/SSGH3R_16.1.0/com.ibm.xlcpp161.aix.doc/language_ref/constexpr_functions.html][Constexpr functions (C++11)]]
+
+
+* The C Programming Language
+
+  https://learning.oreilly.com/api/v1/dashboard/continue/9780133086249
+  https://www.geeksforgeeks.org/storage-classes-in-c/

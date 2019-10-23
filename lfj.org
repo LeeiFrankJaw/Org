@@ -390,7 +390,7 @@ paragraph.
   * [[https://unix.stackexchange.com/a/479423/81809][debian - apt-get Post-hook for specific package]]
 
 
-* Gmail and Outlook.com 
+* Gmail and Outlook.com
 
 ** IMAP behaviors
 
@@ -409,7 +409,7 @@ paragraph.
 ** Query Languages
 
    Sadly, Outlook.com has no filter for folders.  To archieve the same
-   effect, you have to use the graphical interface.  
+   effect, you have to use the graphical interface.
 
    The query language for Gmail is much more expressive than that for
    Outlook.com.
@@ -418,10 +418,6 @@ paragraph.
    * [[https://support.office.com/en-us/article/88108edf-028e-4306-b87e-7400bbb40aa7][Search Mail and People in Outlook.com]]
 
 
-* Setup MobileOrg
-  :LOGBOOK:
-  CLOCK: [2019-10-22 Tue 16:19]--[2019-10-22 Tue 17:49] =>  1:30
-  :END:
+* Install IBM Plex fonts
 
-  This is not the way how things should be done.  It doesn't support
-  tracking time.  What a waste of time setting all this up!
+  https://github.com/IBM/plex/releases

@@ -412,3 +412,18 @@ file.
   See https://emacs.stackexchange.com/a/47982/11507
 
 
+
+* DONE Setup MobileOrg
+  CLOSED: [2019-10-22 Tue 17:49]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-10-23 Wed 18:59
+  :ARCHIVE_FILE: ~/Org/lfj.org
+  :ARCHIVE_CATEGORY: lfj
+  :ARCHIVE_TODO: DONE
+  :END:
+  :LOGBOOK:
+  CLOCK: [2019-10-22 Tue 16:19]--[2019-10-22 Tue 17:49] =>  1:30
+  :END:
+
+  This is not the way how things should be done.  It doesn't support
+  tracking time.  What a waste of time setting all this up!
