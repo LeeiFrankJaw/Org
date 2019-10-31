@@ -4,14 +4,56 @@
 
 * 04737
   :LOGBOOK:
+  CLOCK: [2019-10-25 Fri 14:54]--[2019-10-25 Fri 16:25] =>  1:31
+  CLOCK: [2019-10-24 Thu 13:26]--[2019-10-24 Thu 15:15] =>  1:49
   CLOCK: [2019-10-22 Tue 19:17]--[2019-10-22 Tue 20:52] =>  1:35
   :END:
 
+  * [[https://en.cppreference.com/w/cpp/language/cast_operator][user-defined conversion]]
+
 
 * 04741
+  :LOGBOOK:
+  CLOCK: [2019-10-24 Thu 20:12]--[2019-10-24 Thu 21:39] =>  1:27
+  :END:
 
 
 * 04747
+  :LOGBOOK:
+  CLOCK: [2019-10-31 Thu 16:26]--[2019-10-31 Thu 16:55] =>  0:29
+  CLOCK: [2019-10-31 Thu 13:24]--[2019-10-31 Thu 15:00] =>  1:36
+  CLOCK: [2019-10-29 Tue 20:52]--[2019-10-29 Tue 22:04] =>  1:12
+  CLOCK: [2019-10-29 Tue 19:47]--[2019-10-29 Tue 20:48] =>  1:01
+  CLOCK: [2019-10-29 Tue 18:25]--[2019-10-29 Tue 18:49] =>  0:24
+  CLOCK: [2019-10-27 Sun 19:44]--[2019-10-27 Sun 20:52] =>  1:08
+  CLOCK: [2019-10-27 Sun 17:18]--[2019-10-27 Sun 18:06] =>  0:48
+  CLOCK: [2019-10-27 Sun 16:26]--[2019-10-27 Sun 16:56] =>  0:30
+  CLOCK: [2019-10-27 Sun 15:38]--[2019-10-27 Sun 16:12] =>  0:34
+  CLOCK: [2019-10-27 Sun 14:54]--[2019-10-27 Sun 15:10] =>  0:16
+  CLOCK: [2019-10-26 Sat 14:40]--[2019-10-26 Sat 15:00] =>  0:20
+  CLOCK: [2019-10-25 Fri 20:16]--[2019-10-25 Fri 21:21] =>  1:05
+  CLOCK: [2019-10-25 Fri 19:21]--[2019-10-25 Fri 20:12] =>  0:51
+  CLOCK: [2019-10-24 Thu 16:04]--[2019-10-24 Thu 18:04] =>  2:00
+  :END:
+
+  Applet is deprecated in Java 8 and removed in Java 11.  Java Web
+  Start is the way to go.
+
+  The methods ~.valueOf~ of many built-in classes are called static
+  factory methods.  They construct an object of the correspondent
+  class from their argument, whereas ~.parse*~ family of methods
+  return a value of the correspondent primitive type.
+
+  References:
+   * [[https://www.geeksforgeeks.org/inner-class-java/][Inner class in java]]
+   * [[https://chortle.ccsu.edu/Java5/Notes/chap55/ch55_10.html][AWT Hierarchy]]
+   * [[https://docs.oracle.com/javase/8/docs/api/java/awt/package-tree.html][java.awt Class Hierarchy (Java Platform SE 8)]]
+   * [[https://docs.oracle.com/javase/8/docs/api/java/applet/package-tree.html][java.applet Class Hierarchy (Java Platform SE 8)]]
+   * [[https://docs.oracle.com/javase/8/docs/api/javax/swing/package-tree.html][javax.swing Class Hierarchy (Java Platform SE 8)]]
+   * [[https://www.ibm.com/support/knowledgecenter/en/SS2HSB_8.1.0/com.ibm.iis.ii.analyzingvis.doc/topics/eas_tsk_settingmozillafirefoxtousereqjavawebstart.html][Setting Mozilla Firefox to use the required Java Web Start]]
+   * [[https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html][Class JFrame]]
+   * [[https://docs.oracle.com/javase/tutorial/uiswing/components/frame.html][How to Make Frames (Main Windows)]]
+   * [[https://docs.oracle.com/javase/tutorial/uiswing/layout/border.html][How to Use BorderLayout]]
 
 
 * A Tour of C++
@@ -29,5 +71,14 @@
 
 * The C Programming Language
 
-  https://learning.oreilly.com/api/v1/dashboard/continue/9780133086249
-  https://www.geeksforgeeks.org/storage-classes-in-c/
+  [[https://learning.oreilly.com/api/v1/dashboard/continue/9780133086249][Continue Reading]]
+
+  * [[https://www.geeksforgeeks.org/storage-classes-in-c/][Storage Classes in C]]
+
+
+* Effective Java
+
+
+* Java Swing
+
+

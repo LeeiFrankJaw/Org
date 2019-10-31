@@ -38,30 +38,6 @@ personal site.
 ** TODO systemd
 
 
-* TODO Improve Emacs configuration
-
-** TODO Safe local variables
-
-Find a better way to organize safe local variables configuration.
-Putting them all in the Customize interface is ugly especially when
-the same variable has more than one safe values.
-
-
-** TODO [#C] Investigate contacts management in mu4e
-
-
-* TODO Discuss Emacs bugs on mailing list
-
-
-** Defect in =smtplib= related to authentication
-
-
-** Bug in =dired-x= related to ~dired-bind-jump~
-
-When ~dired-bind-jump~ is set to nil, it shouldn't set =C-x C-j= and
-=C-x 4 C-j= and should leave them untouched.
-
-
 * TODO MuPDF Scripts
 
 
@@ -153,11 +129,6 @@ class User(Basse):
 
 
 
-* ENSIME refactor infinitely applying hunk bug
-
-See https://github.com/ensime/ensime-emacs/pull/702
-
-
 * Anchor does not work on Safari
 
 This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][link]] is an example.
@@ -166,11 +137,6 @@ This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][li
 * Buildship won't update
 
 See [[https://github.com/eclipse/buildship/issues/488][#488]].
-
-
-* TODO Report ENSIME implicit dependency
-
-ENSIME depends on package ~expand-region~.
 
 
 * Markdown differences
@@ -421,3 +387,15 @@ paragraph.
 * Install IBM Plex fonts
 
   https://github.com/IBM/plex/releases
+
+
+* Ubuntu freezed by snapd.service
+
+  I have purged snapd from my computer.
+
+
+* Disable bluetooth on startup
+
+  [[https://askubuntu.com/a/2568/108910][How can I deactivate Bluetooth on system startup?]]
+
+

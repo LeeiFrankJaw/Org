@@ -26,3 +26,28 @@
   #+END_SRC
 
 
+* Diff between renamed files
+
+  The consistent way to diff between renamed files in history is to
+  use blob. A blob is something like ~HEAD:lisp/jde-gen.el~
+
+  #+BEGIN_SRC bash
+    git diff <blob> <blob>
+  #+END_SRC
+
+  * [[https://stackoverflow.com/questions/5730460/how-to-do-a-git-diff-on-moved-renamed-file/10121060][How to do a git diff on moved/renamed file?]]
+
+
+* Delete a branch on remote
+
+  The old way to do it is:
+
+  #+BEGIN_SRC bash
+    git push origin :<branch-name>
+  #+END_SRC
+
+  Recent git allows you to do:
+
+  #+BEGIN_SRC bash
+    git push --delete origin <branch-name>
+  #+END_SRC
