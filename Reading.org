@@ -2,16 +2,6 @@
 * 02197
 
 
-* 04737
-  :LOGBOOK:
-  CLOCK: [2019-10-25 Fri 14:54]--[2019-10-25 Fri 16:25] =>  1:31
-  CLOCK: [2019-10-24 Thu 13:26]--[2019-10-24 Thu 15:15] =>  1:49
-  CLOCK: [2019-10-22 Tue 19:17]--[2019-10-22 Tue 20:52] =>  1:35
-  :END:
-
-  * [[https://en.cppreference.com/w/cpp/language/cast_operator][user-defined conversion]]
-
-
 * 04741
   :LOGBOOK:
   CLOCK: [2019-10-24 Thu 20:12]--[2019-10-24 Thu 21:39] =>  1:27
@@ -20,6 +10,7 @@
 
 * 04747
   :LOGBOOK:
+  CLOCK: [2019-11-01 Fri 17:14]--[2019-11-01 Fri 17:44] =>  0:30
   CLOCK: [2019-10-31 Thu 16:26]--[2019-10-31 Thu 16:55] =>  0:29
   CLOCK: [2019-10-31 Thu 13:24]--[2019-10-31 Thu 15:00] =>  1:36
   CLOCK: [2019-10-29 Tue 20:52]--[2019-10-29 Tue 22:04] =>  1:12
@@ -78,7 +69,11 @@
 
 * Effective Java
 
+  [[https://learning.oreilly.com/api/v1/dashboard/continue/9780134686097/][Continue Reading]]
+
 
 * Java Swing
+
+  [[https://learning.oreilly.com/api/v1/dashboard/continue/0596004087][Continue Reading]]
 
 

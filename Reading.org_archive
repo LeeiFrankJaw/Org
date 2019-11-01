@@ -1,0 +1,33 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/pony/Org/Reading.org
+
+
+* DONE 04737
+  CLOSED: [2019-11-01 Fri 16:07]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-11-01 Fri 18:00
+  :ARCHIVE_FILE: ~/Org/Reading.org
+  :ARCHIVE_CATEGORY: Reading
+  :ARCHIVE_TODO: DONE
+  :END:
+  :LOGBOOK:
+  CLOCK: [2019-11-01 Fri 14:15]--[2019-11-01 Fri 16:07] =>  1:52
+  CLOCK: [2019-10-31 Thu 22:24]--[2019-10-31 Thu 22:47] =>  0:23
+  CLOCK: [2019-10-31 Thu 18:50]--[2019-10-31 Thu 19:37] =>  0:47
+  CLOCK: [2019-10-25 Fri 14:54]--[2019-10-25 Fri 16:25] =>  1:31
+  CLOCK: [2019-10-24 Thu 13:26]--[2019-10-24 Thu 15:15] =>  1:49
+  CLOCK: [2019-10-22 Tue 19:17]--[2019-10-22 Tue 20:52] =>  1:35
+  :END:
+
+  * [[https://en.cppreference.com/w/cpp/language/cast_operator][user-defined conversion]]
+  * [[http://www.cplusplus.com/reference/iomanip/setprecision/][setprecision]]
+  * [[https://en.cppreference.com/w/cpp/io/manip/setprecision][std::setprecision]]
+  * [[https://stackoverflow.com/a/34623467/2117531][Correct behavior for std::setprecision(0) in GCC vs VS2013]]
+  * [[https://en.cppreference.com/w/cpp/io/basic_istream/ignore][std::basic_istream<CharT,Traits>::ignore]]
+  * [[http://www.cplusplus.com/reference/istream/istream/ignore/][istream::ignore]]
+  * [[https://en.cppreference.com/w/cpp/io/manip/fixed][std::fixed, std::scientific, std::hexfloat, std::defaultfloat]]
+  * [[http://www.cplusplus.com/reference/ios/scientific/][scientific]]
+
+
