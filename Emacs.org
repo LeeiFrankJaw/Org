@@ -99,20 +99,6 @@ file.
   tracking time.  What a waste of time setting all this up!
 
 
-* DONE Report ENSIME implicit dependency
-  CLOSED: [2019-10-27 Sun 18:11]
-  :PROPERTIES:
-  :ARCHIVE_TIME: 2019-10-27 Sun 18:10
-  :ARCHIVE_FILE: ~/Org/lfj.org
-  :ARCHIVE_CATEGORY: lfj
-  :ARCHIVE_TODO: TODO
-  :END:
-
-ENSIME depends on package ~expand-region~.
-
-ENSIME is dead and no need to report now.
-
-
 * TODO Safe local variables
 
 Find a better way to organize safe local variables configuration.
@@ -132,11 +118,6 @@ When ~dired-bind-jump~ is set to nil, it shouldn't set =C-x C-j= and
 =C-x 4 C-j= and should leave them untouched.
 
 
-* ENSIME refactor infinitely applying hunk bug
-
-  See https://github.com/ensime/ensime-emacs/pull/702
-
-
 * Try out lsp-mode
 
   * [[https://github.com/emacs-lsp/lsp-mode#supported-languages][lsp-mode Supported languages]]
@@ -147,3 +128,38 @@ When ~dired-bind-jump~ is set to nil, it shouldn't set =C-x C-j= and
 
   * [[https://emacs.stackexchange.com/q/22736/11507][Org-mode: How to disable automatic doc-view on emacs-25]]
   * [[http://rachid.koucha.free.fr/tech_corner/pty_pdip.html][Using pseudo-terminals (pty) to control interactive programs]]
+
+
+* ENSIME
+
+  ENSIME is dead and no need to report now.
+
+
+** DONE Report ENSIME implicit dependency
+   CLOSED: [2019-10-27 Sun 18:11]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2019-10-27 Sun 18:10
+   :ARCHIVE_FILE: ~/Org/lfj.org
+   :ARCHIVE_CATEGORY: lfj
+   :ARCHIVE_TODO: TODO
+   :END:
+
+ ENSIME depends on package ~expand-region~.
+
+
+** ENSIME refactor infinitely applying hunk bug
+
+   See https://github.com/ensime/ensime-emacs/pull/702
+
+
+** DONE [#A] Create an PR for ensime-sbt
+   CLOSED: [2019-11-07 Thu 22:56]
+
+   Java 11 now ships ~src.zip~ under ~lib~ as ~lib/src.zip~ and
+   =ensime-sbt= cannot find it.
+
+   Under Ubuntu, this also caused a problem. The file ~src.zip~ was
+   linked to ~../openjdk-11/src.zip~ but should be
+   ~../openjdk-11/lib/src.zip~ instead.
+
+

@@ -111,27 +111,12 @@ class User(Basse):
 #+END_SRC
 
 
-* TODO [#A] Create an PR for ensime-sbt
-
-  Java 11 now ships ~src.zip~ under ~lib~ as ~lib/src.zip~ and
-  =ensime-sbt= cannot find it.
-
-  Under Ubuntu, this also caused a problem. The file ~src.zip~ was
-  linked to ~../openjdk-11/src.zip~ but should be
-  ~../openjdk-11/lib/src.zip~ instead.
-
-
 * TODO Discuss about a problem caused by anonymous function
 
   The example given at http://eed3si9n.com/gigahorse/concepts.html
   does not work; however, it works after factoring out the second
   argument to ~http.run~ as named function.
 
-
-
-* Anchor does not work on Safari
-
-This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][link]] is an example.
 
 
 * Buildship won't update
@@ -172,14 +157,6 @@ paragraph.
             :charset=UTF-8:\
             :lang=en_US.UTF-8:
   #+END_EXAMPLE
-
-
-* Uninstall plugins for Safari on macOS
-
-  Plug-ins are located under ~/Library/Internet Plug-Ins/~.  Simply
-  remove them from this directory.
-
-  Refer https://www.microsoft.com/getsilverlight/get-started/install/removing-silverlight-mac
 
 
 * About Debian alternative system

@@ -10,6 +10,19 @@
 
 * 04747
   :LOGBOOK:
+  CLOCK: [2019-11-09 Sat 13:31]--[2019-11-09 Sat 15:05] =>  1:34
+  CLOCK: [2019-11-07 Thu 11:21]--[2019-11-07 Thu 11:31] =>  0:10
+  CLOCK: [2019-11-06 Wed 21:45]--[2019-11-06 Wed 23:16] =>  1:31
+  CLOCK: [2019-11-06 Wed 18:49]--[2019-11-06 Wed 19:20] =>  0:31
+  CLOCK: [2019-11-06 Wed 17:29]--[2019-11-06 Wed 18:18] =>  0:49
+  CLOCK: [2019-11-06 Wed 15:54]--[2019-11-06 Wed 17:02] =>  1:08
+  CLOCK: [2019-11-06 Wed 13:04]--[2019-11-06 Wed 13:17] =>  0:13
+  CLOCK: [2019-11-06 Wed 12:20]--[2019-11-06 Wed 12:38] =>  0:18
+  CLOCK: [2019-11-05 Tue 11:41]--[2019-11-05 Tue 12:54] =>  1:13
+  CLOCK: [2019-11-03 Sun 22:14]--[2019-11-03 Sun 22:52] =>  0:38
+  CLOCK: [2019-11-02 Sat 17:18]--[2019-11-02 Sat 18:33] =>  1:15
+  CLOCK: [2019-11-02 Sat 14:48]--[2019-11-02 Sat 15:34] =>  0:46
+  CLOCK: [2019-11-01 Fri 22:55]--[2019-11-02 Sat 00:05] =>  1:10
   CLOCK: [2019-11-01 Fri 17:14]--[2019-11-01 Fri 17:44] =>  0:30
   CLOCK: [2019-10-31 Thu 16:26]--[2019-10-31 Thu 16:55] =>  0:29
   CLOCK: [2019-10-31 Thu 13:24]--[2019-10-31 Thu 15:00] =>  1:36
@@ -35,8 +48,14 @@
   class from their argument, whereas ~.parse*~ family of methods
   return a value of the correspondent primitive type.
 
+  The names ending with /listener/ are mostly of interfaces to be
+  implemented.
+
   References:
    * [[https://www.geeksforgeeks.org/inner-class-java/][Inner class in java]]
+   * [[https://docs.oracle.com/javase/tutorial/uiswing/index.html][Trail: Creating a GUI With JFC/Swing]]
+   * [[https://docs.oracle.com/javase/tutorial/uiswing/components/componentlist.html][How to Use Various Components]]
+   * [[https://docs.oracle.com/javase/tutorial/uiswing/layout/layoutlist.html][How to Use Various Layout Managers]]
    * [[https://chortle.ccsu.edu/Java5/Notes/chap55/ch55_10.html][AWT Hierarchy]]
    * [[https://docs.oracle.com/javase/8/docs/api/java/awt/package-tree.html][java.awt Class Hierarchy (Java Platform SE 8)]]
    * [[https://docs.oracle.com/javase/8/docs/api/java/applet/package-tree.html][java.applet Class Hierarchy (Java Platform SE 8)]]
@@ -45,6 +64,7 @@
    * [[https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html][Class JFrame]]
    * [[https://docs.oracle.com/javase/tutorial/uiswing/components/frame.html][How to Make Frames (Main Windows)]]
    * [[https://docs.oracle.com/javase/tutorial/uiswing/layout/border.html][How to Use BorderLayout]]
+   * [[https://docs.oracle.com/javase/tutorial/uiswing/events/itemlistener.html][How to Write an Item Listener]]
 
 
 * A Tour of C++

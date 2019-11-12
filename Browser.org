@@ -1,0 +1,16 @@
+* Anchor does not work on Safari
+
+This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][link]] is an example.
+
+
+* Uninstall plugins for Safari on macOS
+
+  Plug-ins are located under ~/Library/Internet Plug-Ins/~.  Simply
+  remove them from this directory.
+
+  Refer https://www.microsoft.com/getsilverlight/get-started/install/removing-silverlight-mac
+
+
+* Learn to use userContent.css
+
+  http://kb.mozillazine.org/UserContent.css
