@@ -376,3 +376,42 @@ paragraph.
   [[https://askubuntu.com/a/2568/108910][How can I deactivate Bluetooth on system startup?]]
 
 
+* Prune entries from recently-used.xbel
+
+  This should be done as an exercise of XQuery.
+
+  References:
+   * [[https://www.freedesktop.org/wiki/Specifications/desktop-bookmark-spec/][Desktop Bookmark Spec]]
+
+
+* Input Method System for Ubuntu 18.04
+
+** Fcitx (小企鹅输入法)
+
+   This simply doesn't work well for GNOME 3 desktop.  Specifically,
+   it cannot detect active input window and this causes fcitx-keyboard
+   to be uneffective.  The only effect keyboard layout is the layout
+   specified by the dialog "keyboard layout to use when no input
+   window".
+
+
+** IBus (Intelligent Input Bus)
+
+   This is the recommended input method system by GNOME; however, the
+   version shipped with Ubuntu 18.04 contains a lot of bugs.  For IBus
+   SunPinyin, the preference panel simply won't show up.  The file
+   =/usr/share/ibus-sunpinyin/setup/main.py= is manually patched from
+   upstream and locally diverted to avoid being overwritten by package
+   update.  You have manually invoke the following command to show up
+   the panel.
+
+   #+BEGIN_SRC bash
+     /usr/bin/python3 /usr/share/ibus-sunpinyin/setup/main.py
+   #+END_SRC
+
+   The options set through the command ~ibus-setup~ will also not be
+   effective.  Neither will options set via dconf directly.
+
+   References:
+    * [[https://github.com/sunpinyin/sunpinyin/tree/bffe55a829d5a71de6065e8ae4b1c61698d5f0f5/wrapper/ibus/setup][sunpinyin/wrapper/ibus/setup at bffe55a]]
+    * [[https://unix.stackexchange.com/a/236817/81809][Where is config file of ibus stored?]]

@@ -1,0 +1,56 @@
+
+* PSP Gran Turismo
+
+
+** Nürburgring Nordschleife
+   :PROPERTIES:
+   :VISIBILITY: children
+   :END:
+   :LOGBOOK:
+   CLOCK: [2019-11-19 Tue 19:13]--[2019-11-19 Tue 20:09] =>  0:56
+   CLOCK: [2019-11-18 Mon 18:20]--[2019-11-18 Mon 19:56] =>  1:36
+   CLOCK: [2019-11-18 Mon 15:10]--[2019-11-18 Mon 15:42] =>  0:32
+   CLOCK: [2019-11-18 Mon 00:19]--[2019-11-18 Mon 00:54] =>  0:35
+   CLOCK: [2019-11-17 Sun 18:33]--[2019-11-17 Sun 19:59] =>  1:26
+   CLOCK: [2019-11-17 Sun 00:05]--[2019-11-17 Sun 00:50] =>  0:45
+   CLOCK: [2019-11-16 Sat 22:18]--[2019-11-16 Sat 23:49] =>  1:31
+   CLOCK: [2019-11-14 Thu 19:18]--[2019-11-14 Thu 21:32] =>  2:14
+   :END:
+
+   Mistakes
+
+   | Section              | Count |
+   |----------------------+-------|
+   | Hatzenbach           |    32 |
+   | Hocheichen           |     7 |
+   | Quiddelbacher-Höhe   |     2 |
+   | Flugplatz            |    18 |
+   | Schwedenkreuz        |    15 |
+   | Aremberg             |     2 |
+   | Fuchsröhre           |     3 |
+   | Adenauer Forst       |     6 |
+   | Metzgesfeld          |     4 |
+   | Kallenhard           |     5 |
+   | Wehrseifen           |     5 |
+   | Ex-Mühle             |     1 |
+   | Bergwerk             |     5 |
+   | Klostertal           |     6 |
+   | Steilstrecke         |     3 |
+   | Carraciola-Karussell |     3 |
+   | Hohe Acht            |     1 |
+   | Hedwigshöhe          |     1 |
+   | Wippermann           |     1 |
+   | Eschbach             |     4 |
+   | Brünnchen            |     1 |
+   | Pflanzgarten         |     4 |
+   | Stefan-Bellof-S      |     2 |
+   | Schwalbenschwanz     |     5 |
+   | Galgenkopf           |     3 |
+   | Tiergarten           |     1 |
+   | Hohenrain            |     3 |
+
+   References:
+    * [[https://www.nuerburgring.de/fileadmin/Streckenskizzen/2019/Nordschleife_Gefahrenpunkte_EN_2018.pdf][Nordschleife Gefahrenpunkte EN 2018]]
+    * [[https://www.nuerburgring.de/en/fans-info/race-tracks/nordschleife/sections-of-the-track.html][Sections of the track]]
+    * [[https://www.nuerburgring.de/en/fans-info/race-tracks/nordschleife/history.html][History]]
+    * [[https://www.roadandtrack.com/motorsports/news/a14720/anatomy-of-a-lap/][The Anatomy of a Nürburgring Lap]]

@@ -97,3 +97,62 @@
   [[https://learning.oreilly.com/api/v1/dashboard/continue/0596004087][Continue Reading]]
 
 
+* The Morning Myth
+
+  [[https://learning.oreilly.com/api/v1/dashboard/continue/9781119537755][Continue Reading]]
+
+
+** Preface
+   :LOGBOOK:
+   CLOCK: [2019-11-14 Thu 16:50]--[2019-11-14 Thu 17:30] =>  0:40
+   :END:
+
+   [[https://learning.oreilly.com/library/view/the-morning-myth/9781119537755/f04.xhtml][Preface]]
+
+
+** Chapter 12
+  :LOGBOOK:
+  CLOCK: [2019-11-12 Tue 16:20]--[2019-11-12 Tue 18:20] =>  2:00
+  :END:
+
+  [[https://learning.oreilly.com/library/view/the-morning-myth/9781119537755/c12.xhtml][Night Owl Discrimination and Sleep-Shaming: The Time Has Come to End Discrimination Against Night Owls]]
+
+
+* Introduction to German
+
+  A course from iTunes U by Phil Roggenbuck and Miriam Walsh
+
+** Greetings
+   :LOGBOOK:
+   CLOCK: [2019-11-14 Thu 12:54]--[2019-11-14 Thu 14:00] =>  1:06
+   CLOCK: [2019-11-14 Thu 12:35]--[2019-11-14 Thu 12:51] =>  0:16
+   CLOCK: [2019-11-13 Wed 20:45]--[2019-11-14 Thu 01:11] =>  4:26
+   CLOCK: [2019-11-13 Wed 18:43]--[2019-11-13 Wed 20:19] =>  1:36
+   CLOCK: [2019-11-13 Wed 12:53]--[2019-11-13 Wed 14:15] =>  1:22
+   CLOCK: [2019-11-13 Wed 12:21]--[2019-11-13 Wed 12:31] =>  0:10
+   CLOCK: [2019-11-13 Wed 11:42]--[2019-11-13 Wed 12:05] =>  0:23
+   :END:
+
+   Reference:
+   * [[http://joycep.myweb.port.ac.uk/pronounce/consonr.html][The German Consonant 'r']]
+
+
+** Directions
+   :LOGBOOK:
+   CLOCK: [2019-11-15 Fri 15:32]--[2019-11-15 Fri 15:59] =>  0:27
+   :END:
+
+
+** Numbers
+   :LOGBOOK:
+   CLOCK: [2019-11-15 Fri 16:23]--[2019-11-15 Fri 17:09] =>  0:46
+   :END:
+
+
+** Colors
+
+
+** Days of the week
+
+
+** Alphabet

@@ -1,13 +1,14 @@
 
 * TODO Review Anki Deck
-  DEADLINE: <2019-11-18 Mon .+1w>
+  DEADLINE: <2019-11-28 Thu .+1w>
   :PROPERTIES:
-  :LAST_REPEAT: [2019-11-11 Mon 17:53]
+  :LAST_REPEAT: [2019-11-21 Thu 17:45]
   :ARCHIVE_TIME: 2019-02-18 Mon 01:09
   :ARCHIVE_FILE: ~/Org/lfj.org
   :ARCHIVE_CATEGORY: lfj
   :ARCHIVE_TODO: TODO
   :END:
+  - State "DONE"       from "TODO"       [2019-11-21 Thu 17:45]
   - State "DONE"       from "TODO"       [2019-11-11 Mon 17:53]
   - State "DONE"       from "TODO"       [2019-11-04 Mon 20:32]
   - State "DONE"       from "TODO"       [2019-10-28 Mon 21:53]
@@ -25,6 +26,8 @@
   - State "DONE"       from "TODO"       [2018-06-03 Sun 14:28]
   - State "DONE"       from "TODO"       [2018-05-27 Sun 18:28]
   :LOGBOOK:
+  CLOCK: [2019-11-21 Thu 16:39]--[2019-11-21 Thu 17:45] =>  1:06
+  CLOCK: [2019-11-20 Wed 23:51]--[2019-11-21 Thu 00:40] =>  0:49
   CLOCK: [2019-11-11 Mon 16:15]--[2019-11-11 Mon 17:53] =>  1:38
   CLOCK: [2019-11-04 Mon 20:12]--[2019-11-04 Mon 20:32] =>  0:20
   CLOCK: [2019-10-28 Mon 21:18]--[2019-10-28 Mon 21:53] =>  0:35
