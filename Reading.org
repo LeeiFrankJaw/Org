@@ -110,6 +110,30 @@
    [[https://learning.oreilly.com/library/view/the-morning-myth/9781119537755/f04.xhtml][Preface]]
 
 
+** Chapter 1
+   :LOGBOOK:
+   CLOCK: [2019-11-27 Wed 13:50]--[2019-11-27 Wed 14:52] =>  1:02
+   :END:
+
+   [[https://learning.oreilly.com/library/view/the-morning-myth/9781119537755/c01.xhtml][Confessions of a Stigmatized Night Owl: How Early Rising Nearly Destroyed My Business (and Did Destroy My Education)]]
+
+
+** Chapter 2
+   :LOGBOOK:
+   CLOCK: [2019-11-27 Tue 20:15]--[2019-11-27 Tue 21:05] =>  0:50
+   :END:
+
+   [[https://learning.oreilly.com/library/view/the-morning-myth/9781119537755/c02.xhtml][The Brainwashing: Society Stigmatizes Night Owls—and People Buy It]]
+
+
+** Chapter 3
+   :LOGBOOK:
+   CLOCK: [2019-12-03 Tue 14:05]--[2019-12-03 Tue 14:55] =>  0:50
+   :END:
+
+   [[https://learning.oreilly.com/library/view/the-morning-myth/9781119537755/c03.xhtml][The Prison: How Our Society’s Discrimination Harms Night Owls]]
+
+
 ** Chapter 12
   :LOGBOOK:
   CLOCK: [2019-11-12 Tue 16:20]--[2019-11-12 Tue 18:20] =>  2:00
@@ -145,8 +169,15 @@
 
 ** Numbers
    :LOGBOOK:
+   CLOCK: [2020-01-13 Mon 16:32]--[2020-01-13 Mon 17:09] =>  0:37
    CLOCK: [2019-11-15 Fri 16:23]--[2019-11-15 Fri 17:09] =>  0:46
    :END:
+
+   Nummer
+
+   eins zwei drei vier fünf sechs sieben acht neun zehn
+   zwanzig dreißig vierzig fünfzig sechzig siebzig achtzig neunzig
+   hundert einhundert tausend eintausend
 
 
 ** Colors

@@ -376,7 +376,7 @@ paragraph.
   [[https://askubuntu.com/a/2568/108910][How can I deactivate Bluetooth on system startup?]]
 
 
-* Prune entries from recently-used.xbel
+* TODO Prune entries from recently-used.xbel
 
   This should be done as an exercise of XQuery.
 
@@ -415,3 +415,12 @@ paragraph.
    References:
     * [[https://github.com/sunpinyin/sunpinyin/tree/bffe55a829d5a71de6065e8ae4b1c61698d5f0f5/wrapper/ibus/setup][sunpinyin/wrapper/ibus/setup at bffe55a]]
     * [[https://unix.stackexchange.com/a/236817/81809][Where is config file of ibus stored?]]
+
+
+* TODO Learn gstreamer
+
+
+* Update Java alternative on Debian
+
+  See [[file:/usr/lib/jvm/java-8-openjdk-amd64/docs/JAVA_HOME][JAVA_HOME]] and [[file:/usr/lib/jvm/java-8-openjdk-amd64/docs/README.alternatives][README.alternatives]] or simply the man page of
+  =update-java-alternatives=.

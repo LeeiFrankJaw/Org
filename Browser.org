@@ -1,6 +1,7 @@
+
 * Anchor does not work on Safari
 
-This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][link]] is an example.
+  This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][link]] is an example.
 
 
 * Uninstall plugins for Safari on macOS
@@ -14,3 +15,18 @@ This [[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox][li
 * Learn to use userContent.css
 
   http://kb.mozillazine.org/UserContent.css
+
+
+* Set margin when printing a website
+
+  #+BEGIN_SRC css
+    @page {
+      margin: 32px;
+    }
+  #+END_SRC
+
+  It is better to set the CSS properties before entering print
+  preview.
+
+  * https://stackoverflow.com/a/2573612/2117531
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/@page
