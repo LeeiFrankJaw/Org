@@ -30,3 +30,91 @@
 
   * https://stackoverflow.com/a/2573612/2117531
   * https://developer.mozilla.org/en-US/docs/Web/CSS/@page
+
+
+* <<Mpwp>>Missing pages when printing
+
+  Change ~display~ to ~block~ for relevant containers.
+
+  https://support.mozilla.org/bm/questions/1100801
+
+
+* FP missing images when printing
+
+  #+BEGIN_SRC javascript
+    document.querySelectorAll('.image.-lazy')
+        .forEach(img => img.src = img.getAttribute('data-src'))
+  #+END_SRC
+
+  #+BEGIN_SRC css
+    .image-attachment.-backgroundcover,
+    .image-attachment>.image.-lazy,
+    .image-attachment>.image.-loading {
+     opacity:0                      /* delete this line */
+    }
+    .image-attachment.-loaded,
+    /* add the following two lines */
+    /* .image-attachment>.image.-lazy,
+       .image-attachment>.image.-loading */
+    .image-attachment>.image.-loaded {
+     opacity:1;
+     -webkit-transition:opacity .3s;
+     transition:opacity .3s;
+    }
+  #+END_SRC
+
+  #+BEGIN_SRC css
+    header,
+    img,                            /* delete this line */
+    .print,
+    .pullquote-left,
+    .pullquote-right,
+    .comments,
+    #post-category,
+    .dynamic-image,
+    .js-no-print,
+    iframe,
+    .sharedaddy,
+    #related-posts,
+    #desktop-right,
+    footer {
+     display:none !important
+    }
+  #+END_SRC
+
+
+* NYT
+
+  Disable JavaScript to viewing content.  Another option is to press
+  the Esc key before the JavaScript is fully loaded.
+
+  For the Chinese version, refer to the above [[Mpwp][section]] and the following.
+
+  #+BEGIN_SRC css
+    @media print {
+      .article-content .row,
+      .article-partial {
+        display: block !important;
+      }
+
+      .article-ribbon,
+      /* .container, */
+      .article-body-aside,
+      .article-footer,
+      #subscribe_mobile_cont,
+      .nav-footer,
+      .download,
+      .image-cont > h2 {
+        display: none;
+      }
+
+      .article-paragraph,
+      a {
+        color: #000 !important;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  #+END_SRC

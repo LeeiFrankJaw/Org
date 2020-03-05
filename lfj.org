@@ -424,3 +424,5 @@ paragraph.
 
   See [[file:/usr/lib/jvm/java-8-openjdk-amd64/docs/JAVA_HOME][JAVA_HOME]] and [[file:/usr/lib/jvm/java-8-openjdk-amd64/docs/README.alternatives][README.alternatives]] or simply the man page of
   =update-java-alternatives=.
+
+* Use ~xprop~ to show app info

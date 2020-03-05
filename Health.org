@@ -16,3 +16,13 @@
   * [[https://www.webmd.com/vitamins/ai/ingredientmono-1024/taurine][Taurine: Uses, Side Effects, Interactions, Dosage, and Warning]]
   * [[https://www.healthline.com/nutrition/what-is-taurine][What Is Taurine? Benefits, Side Effects and More]]
   * [[https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/taurine/faq-20058177][Taurine is an ingredient in many energy drinks. Is taurine safe?]]
+
+
+* Blister
+
+  * [[https://www.health.harvard.edu/a_to_z/friction-blisters-a-to-z][Friction Blisters]]
+    - [[file:~/Documents/Websites/Friction-Blisters.pdf][PDF]]
+  * [[https://www.webmd.com/skin-problems-and-treatments/ss/slideshow-blisters][Blisters: Pictures of What They Look Like, Symptoms, Causes, Treatment]]
+  * [[https://medlineplus.gov/blisters.html][Blisters]]
+  * [[https://www.health.harvard.edu/a_to_z/blisters-overview-a-to-z][Blisters]]
+    - [[file:~/Documents/Websites/Blisters.pdf][PDF]]
