@@ -47,6 +47,12 @@
   #+END_SRC
 
   #+BEGIN_SRC css
+    .post-content .figure-image {
+      display:none                  /* delete this line */
+    }
+  #+END_SRC
+
+  #+BEGIN_SRC css
     .image-attachment.-backgroundcover,
     .image-attachment>.image.-lazy,
     .image-attachment>.image.-loading {
@@ -88,6 +94,35 @@
   Disable JavaScript to viewing content.  Another option is to press
   the Esc key before the JavaScript is fully loaded.
 
+  #+BEGIN_SRC css
+    @media print {
+      /* p, a {
+        color: #000 !important;
+      } */
+
+      #story header figure,
+      #story header figure figcaption {
+        display: block;
+      }
+
+      #story header figure figcaption span {
+        display: inline;
+      }
+
+      figcaption > span[aria-hidden=true] {
+        color: #666 !important;
+      }
+
+      figcaption > span[itemprop=copyrightHolder] * {
+        color: #888 !important;
+      }
+
+      #article-summary + div time {
+        color: #333 !important;
+      }
+    }
+  #+END_SRC
+
   For the Chinese version, refer to the above [[Mpwp][section]] and the following.
 
   #+BEGIN_SRC css
@@ -116,5 +151,26 @@
       a {
         text-decoration: none;
       }
+    }
+  #+END_SRC
+
+
+* Brookings
+
+  Delete ~p:first-line~ from ~print.css~.
+
+  #+BEGIN_SRC css
+    ,*,
+    :after,
+    :before,
+    :first-letter,
+    blockquote:first-line,
+    div:first-line,
+    li:first-line,
+    p:first-line {                  /* delete this selector */
+     background:transparent!important;
+     box-shadow:none!important;
+     color:#000!important;
+     text-shadow:none!important
     }
   #+END_SRC
