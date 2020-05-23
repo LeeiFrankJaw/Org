@@ -99,14 +99,14 @@ file.
   tracking time.  What a waste of time setting all this up!
 
 
-* TODO Safe local variables
+* Safe local variables
 
 Find a better way to organize safe local variables configuration.
 Putting them all in the Customize interface is ugly especially when
 the same variable has more than one safe values.
 
 
-* TODO Discuss Emacs bugs on mailing list
+* Discuss Emacs bugs on mailing list
 
 
 ** Defect in =smtplib= related to authentication
@@ -163,3 +163,19 @@ When ~dired-bind-jump~ is set to nil, it shouldn't set =C-x C-j= and
    ~../openjdk-11/lib/src.zip~ instead.
 
 
+
+* Rewrite key sequences using kbd
+  :LOGBOOK:
+  CLOCK: [2020-05-19 Tue 17:34]--[2020-05-19 Tue 17:45] =>  0:11
+  :END:
+
+
+* Smart find-alternate-file
+  :LOGBOOK:
+  CLOCK: [2020-05-19 Tue 17:53]--[2020-05-19 Tue 19:20] =>  1:27
+  :END:
+
+
+* CEDET/Semantic/lsp-mode/Xref
+
+  [[http://ergoemacs.org/misc/elisp_sucks_donkey_ass.html][Language Server Protocol Kills Emacs]]

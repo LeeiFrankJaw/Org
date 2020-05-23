@@ -1,3 +1,4 @@
+#+STARTUP: content
 #+OPTIONS: ^:{}
 
 * O'Reilly Style Guide
@@ -5,13 +6,13 @@
 http://oreillymedia.github.io/production-resources/styleguide/
 
 
-* TODO Learn logrotate
+* Learn logrotate
 
   References:
    - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s2-log_rotation
 
 
-* TODO [#C] Configure desktop system for mu4e
+* [#C] Configure desktop system for mu4e
 
   A desktop file and glue script should suffice.  It should handle
   mailto protocol properly.
@@ -26,51 +27,51 @@ http://oreillymedia.github.io/production-resources/styleguide/
    - http://edoceo.com/howto/xfce-custom-uri-handler
 
 
-* TODO Migration
+* Migration
 
 Migrate useful sections from this file to independent notes on
 personal site.
 
-** TODO SSH configuration
+** SSH configuration
 
-** TODO SQLAlchemy
+** SQLAlchemy
 
-** TODO systemd
-
-
-* TODO MuPDF Scripts
+** systemd
 
 
-** TODO Combine pdf and preserve index and real page number
+* MuPDF Scripts
 
 
-** TODO remove all annotation from PDF file
+** Combine pdf and preserve index and real page number
+
+
+** remove all annotation from PDF file
 
 Some PDFs you get online is annotated by other people.  A script to
 remove such annotation is helpful.
 
 
-* TODO [#C] Organize Calibre Books Tags
+* [#C] Organize Calibre Books Tags
 
 Some tags are long and redundant with others and thus should be
 splitted into smaller tags.
 
 
-* TODO [#C] Maildir Script to update timestamp
+* [#C] Maildir Script to update timestamp
 
 Most IMAP server do not sort based mail sent date but rather the
 internal date.  A script to update Maildir file timestamp is helpful
 since it will reconstruct roughly correct arrival date from sent date.
 
 
-* TODO [#C] Patch tree command for JSON output
+* [#C] Patch tree command for JSON output
 
 
-* TODO [#C] SQLAlchemy
+* [#C] SQLAlchemy
 
-** TODO [[http://aosabook.org/en/sqlalchemy.html][Architecture]] by Michael Bayer
+** [[http://aosabook.org/en/sqlalchemy.html][Architecture]] by Michael Bayer
 
-** TODO [[https://docs.sqlalchemy.org/en/latest/core/tutorial.html][Core]] Tutorial
+** [[https://docs.sqlalchemy.org/en/latest/core/tutorial.html][Core]] Tutorial
 
 #+BEGIN_SRC python
 from sqlalchemy import create_engine
@@ -95,7 +96,7 @@ addresses = Table('addresses', metadata,
 )
 #+END_SRC
 
-** TODO [[https://docs.sqlalchemy.org/en/latest/orm/tutorial.html][ORM]] Tutorial
+** [[https://docs.sqlalchemy.org/en/latest/orm/tutorial.html][ORM]] Tutorial
 
 #+BEGIN_SRC python
 from sqlalchemy.ext.declarative import declarative_base
@@ -111,7 +112,7 @@ class User(Basse):
 #+END_SRC
 
 
-* TODO Discuss about a problem caused by anonymous function
+* Discuss about a problem caused by anonymous function
 
   The example given at http://eed3si9n.com/gigahorse/concepts.html
   does not work; however, it works after factoring out the second
@@ -187,9 +188,9 @@ paragraph.
   Skim through [[https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/d2435927-0999-4c62-8c6d-13ba31a52e1a][Active Directory Technical Specification]].
 
 
-* TODO Write new answers for SE questions
+* Write new answers for SE questions
 
-** TODO GNOME 3 Alt+Tab vs Super+Tab
+** GNOME 3 Alt+Tab vs Super+Tab
 
    https://unix.stackexchange.com/q/465681/81809
 
@@ -198,12 +199,12 @@ paragraph.
    #+END_SRC
 
 
-** TODO Horizontal scroll for Ubuntu 18.04
+** Horizontal scroll for Ubuntu 18.04
 
    https://askubuntu.com/q/1029128/108910
 
 
-** TODO Exception list for icedtea-web
+** Exception list for icedtea-web
 
    https://stackoverflow.com/q/41727963/2117531
 
@@ -376,7 +377,7 @@ paragraph.
   [[https://askubuntu.com/a/2568/108910][How can I deactivate Bluetooth on system startup?]]
 
 
-* TODO Prune entries from recently-used.xbel
+* Prune entries from recently-used.xbel
 
   This should be done as an exercise of XQuery.
 
@@ -417,7 +418,7 @@ paragraph.
     * [[https://unix.stackexchange.com/a/236817/81809][Where is config file of ibus stored?]]
 
 
-* TODO Learn gstreamer
+* Learn gstreamer
 
 
 * Update Java alternative on Debian
@@ -430,4 +431,5 @@ paragraph.
 
 
 * Use ~xev~ to show X event
+
 
