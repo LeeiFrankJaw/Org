@@ -387,6 +387,7 @@ paragraph.
 
 * Input Method System for Ubuntu 18.04
 
+
 ** Fcitx (小企鹅输入法)
 
    This simply doesn't work well for GNOME 3 desktop.  Specifically,
@@ -433,3 +434,6 @@ paragraph.
 * Use ~xev~ to show X event
 
 
+* iCalendar trailing empty lines
+
+  https://github.com/simonthum/ical2org

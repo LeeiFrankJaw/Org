@@ -179,3 +179,22 @@ When ~dired-bind-jump~ is set to nil, it shouldn't set =C-x C-j= and
 * CEDET/Semantic/lsp-mode/Xref
 
   [[http://ergoemacs.org/misc/elisp_sucks_donkey_ass.html][Language Server Protocol Kills Emacs]]
+
+
+* Add show cursor menu item
+  :LOGBOOK:
+  CLOCK: [2020-05-26 Tue 17:52]--[2020-05-26 Tue 18:07] =>  0:15
+  :END:
+
+
+* Dired mode inserting subdir bug
+  :LOGBOOK:
+  CLOCK: [2020-05-29 Fri 04:50]--[2020-05-29 Fri 06:30] =>  1:40
+  :END:
+
+  For unknown reason, the minor ~save-place-mode~ interferes with the
+  command ~dired-maybe-insert-subdir~.  Report this bug in GNU Emacs
+  later.
+
+
+** TODO Report this bug later

@@ -1,0 +1,8 @@
+
+* PAC file for Instagram
+  :LOGBOOK:
+  CLOCK: [2020-05-27 Wed 01:32]--[2020-05-27 Wed 02:55] =>  1:23
+  :END:
+
+  It seems this is a problem inherently in iOS side.
+
