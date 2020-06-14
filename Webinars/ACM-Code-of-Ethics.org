@@ -1,0 +1,42 @@
+#+STARTUP: showall
+
+* Leveraging the ACM Code of Ethics Against Ethical Snake Oil and Dodgy Development
+  :PROPERTIES:
+  :ID: 88643558020200601T182000Z
+  :icalCategories:
+  :END:
+  <2020-06-09 Tue 00:00-01:00>
+  Location:  Webcast
+
+  Thank you for registering for Leveraging the ACM Code of Ethics
+  Against Ethical Snake Oil and Dodgy Development.
+
+  LIVE WEBCAST DATE:  June 08, 2020
+  LIVE WEBCAST TIME:  12:00 PM EDT
+
+  Use the link below to enter the webcast up to 15 minutes before the start.
+
+  WEBCAST LINK:  https://event.on24.com/wcc/r/2213335/AB7EDBBE43BA169A24B06DF23123678E?mode=login&email=leizh26@gmail.com
+  EMAIL:  leizh26@gmail.com
+
+  Thank you and enjoy the webcast!
+
+  :ICALENDAR:
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20200608T170000Z
+DTSTART;VALUE=DATE-TIME:20200608T160000Z
+TRANSP:OPAQUE
+DTSTAMP;VALUE=DATE-TIME:20200601T182054Z
+PRIORITY:5
+UID:88643558020200601T182000Z
+DESCRIPTION:Thank you for registering for Leveraging the ACM Code of Ethics Against Ethical Snake Oil and Dodgy Development. \n\nLIVE WEBCAST DATE:  June 08, 2020 \nLIVE WEBCAST TIME:  12:00 PM EDT \n\nUse the link below to enter the webcast up to 15 minutes before the start. \n\nWEBCAST LINK:  https://event.on24.com/wcc/r/2213335/AB7EDBBE43BA169A24B06DF23123678E?mode=login&email=leizh26@gmail.com \nEMAIL:  leizh26@gmail.com \n\nThank you and enjoy the webcast!
+SUMMARY:Leveraging the ACM Code of Ethics Against Ethical Snake Oil and Dodgy Development
+CLASS:PUBLIC
+LOCATION: Webcast
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+TITLE::Reminder
+END:VALARM
+END:VEVENT
+  :END:
